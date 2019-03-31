@@ -11,7 +11,7 @@
 \usepackage{booktabs}
 \usepackage{adjustbox}
 \usepackage{geometry}
-\geometry{a4paper,total={150mm,225mm}}
+\geometry{a4paper,total={160mm,230mm}}
 \usepackage{makecell}
 \usepackage{afterpage}
 \usepackage{listings}
@@ -33,9 +33,12 @@
 %\usepackage[hidelinks]{hyperref} % delete ugly hyperref borders of hyperlink
 \usepackage{hyperref} % internal hyperlinks
 \usepackage{titling} % titles
+\usepackage{titlesec} % subtitles
 \usepackage{blindtext} % for casual texts
 \usepackage{dblfloatfix} % forces image at bottom in two-column files
 \usepackage{gensymb} % standard unit of measurement
+\usepackage{enumitem}
+\setlist{nolistsep}
 
 \DeclareRobustCommand{\officialeuro}{%
   \ifmmode\expandafter\text\fi
@@ -78,6 +81,7 @@
 
 
 % ----- TITLE
+\titleformat*{\section}{\Large\bfseries}
 \title{
 	\large{University of Trento}\\
 	\normalsize{Master in Mechatronics Engineering}\\
@@ -106,7 +110,7 @@ Driving simulators are in general used both for research purposes and in the dev
 The simulator has to emulate the behaviour of a car like the one shown in Figure \ref{f:ReferenceSystem}.
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=5.5cm]{Images/Car_axes}
+	\includegraphics[width=6.5cm]{Images/Car_axes}
 	\caption{Reference system used.}
 	\label{f:ReferenceSystem}
 \end{figure}
@@ -115,12 +119,16 @@ To make the correct choice literature have been consulted and physical tests hav
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=6cm]{Images/Acceleration}
+	\includegraphics[width=7cm]{Images/Acceleration}
+	\caption{Sperimental acceleration data obtained from a car.}
+	\label{f:Acceleration}
 \end{figure}
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=6cm]{Images/FFTStationary}
+	\includegraphics[width=7cm]{Images/FFTStationary}
+	\caption{Fast Fourier transform of the acceleration data.}
+	\label{f:FFT}
 \end{figure}
 
 \section{Project Parameters}
@@ -162,6 +170,8 @@ At the end, these experimental data were elaborated in MATLAB and then, merging 
 \caption{Dimensional system requirements. \textbf{P} = limitations [\( mm \)], \textbf{V} = velocity [\( mm/s \)], \textbf{A} = acceleration [\( m/s^2 \)] and \textbf{B} = bandwidth [\( Hz \)].}
 \label{t:SystemRequirements2}
 \end{table}
+
+
 \section{Indexes}
 Starting from the above mentioned parameters, performance indexes have been identified and divided in three main groups. To each of them, a priority coefficient (P) has been assigned.
 \\The general reasoning behind the definition of the kinematic indexes is based on the hypothesis that a good and uniform behaviour in the correlation between engineering parameters has a bigger impact on the performance of the system than the parameters themselves seen as stand alone. The kinematics objectives are:
