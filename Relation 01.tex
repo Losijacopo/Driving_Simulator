@@ -11,7 +11,7 @@
 \usepackage{booktabs}
 \usepackage{adjustbox}
 \usepackage{geometry}
-\geometry{a4paper,total={150mm,225mm}}
+\geometry{a4paper,total={160mm,230mm}}
 \usepackage{makecell}
 \usepackage{afterpage}
 \usepackage{listings}
@@ -33,9 +33,12 @@
 %\usepackage[hidelinks]{hyperref} % delete ugly hyperref borders of hyperlink
 \usepackage{hyperref} % internal hyperlinks
 \usepackage{titling} % titles
+\usepackage{titlesec} % subtitles
 \usepackage{blindtext} % for casual texts
 \usepackage{dblfloatfix} % forces image at bottom in two-column files
 \usepackage{gensymb} % standard unit of measurement
+\usepackage{enumitem}
+\setlist{nolistsep}
 
 \DeclareRobustCommand{\officialeuro}{%
   \ifmmode\expandafter\text\fi
@@ -78,18 +81,18 @@
 
 
 % ----- TITLE
+\titleformat*{\section}{\Large\bfseries}
 \title{
 	\large{University of Trento}\\
-	\normalsize{Depertment of Industrial Engineering}\\
 	\normalsize{Master in Mechatronics Engineering}\\
-	\vspace{0.5cm}
-	\Large{\textit{Modelling and simulation of mechatronic systems}}\\
 	\vspace{0.2cm}
-	\huge{\textbf{Development, analysis and optimization of the performance of an innovative driving simulator}}\\
+	\large{\textit{Modelling and Simulation of Mechatronics Systems}}\\
+	\vspace{0.2cm}
+	\Large{\textbf{Development, analysis and optimization of the performance of an innovative driving simulator}}\\
 	\vspace{0.25cm}
 	\hrule
 	\vspace{0.2cm}
-	\Large{\textbf{System requirements}}\\	% Title
+	\large{\textbf{System requirements}}\\	% Title
 	\vspace{0.2cm}
 	\hrule
 }
@@ -104,32 +107,36 @@ The objective of this project is to develop, analyze and optimize the performanc
 A simulator is a device that enables the operator to reproduce or represent under test conditions phenomena likely to occur in actual performance.
 Driving simulators are in general used both for research purposes and in the development process of a vehicle.
 
-The simulator has to emulate the behaviour of a car like the one shown in Figure \ref{f:RefereeSystem}.
+The simulator has to emulate the behaviour of a car like the one shown in Figure \ref{f:ReferenceSystem}.
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=7.5cm]{Images/Car_axes}
-	\caption{Referee system used.}
-	\label{f:RefereeSystem}
+	\includegraphics[width=6.5cm]{Images/Car_axes}
+	\caption{Reference system used.}
+	\label{f:ReferenceSystem}
 \end{figure}
-In the first phase of the project it is relevant to impose a correct set of objective which are composed by system requirements, engineering specifications and performance indexes.
+In the first phase of the project it is relevant to impose a correct set of objectives (system requirements), in form of engineering specifications and performance indexes.
 To make the correct choice literature have been consulted and physical tests have been conduced.
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=8cm]{Images/Acceleration}
+	\includegraphics[width=7cm]{Images/Acceleration}
+	\caption{Sperimental acceleration data obtained from a car.}
+	\label{f:Acceleration}
 \end{figure}
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=8cm]{Images/FFTStationary}
+	\includegraphics[width=7cm]{Images/FFTStationary}
+	\caption{Fast Fourier transform of the acceleration data.}
+	\label{f:FFT}
 \end{figure}
 
 \section{Project Parameters}
-In order to choose the right parameters to implement in the driving simulator it was decided to start from two different models of already developed structure for driving simulation.\\
+In order to choose the right parameters to implement in the driving simulator it was decided to start from two different models of already developed structures for driving simulators.\\
 The first one is the Advanced VehicleDriving Simulator (aVDS) developed by ABDynamics (that is the structure on which this project is mainly based). Moreover, in order to obtain more data and to make a comparison with other systems usually exploited in this field, it was analysed the parameters of the 6DOF Motion System designed by CKAS Mechatronics.\\
-After that, focusing on the decision of checking if the design parameters given by the catalogues were actually correlated to a real behaviour of a car, it was decided to take some experimental data. In order to do this, it was taken a common car and exploiting the functionalities of the MATLAB application available for smartphones, it was collected some data as: linear acceleration (along the three Cartesian axes), orientation ( Roll, Pitch and Yaw) and angular velocity (along the three Cartesian axes). Furthermore, making some specific maneuvers as narrow curves and rapid acceleration and strong breaking performed both separated and together in order to see different results.\\
+After that, focusing on the decision of checking if the design parameters given by the catalogues were actually correlated to a real behaviour of a car, it was decided to take some experimental data. In order to do this, it was taken a common car and exploiting the functionalities of the MATLAB application available for smartphones, some data were collected: linear acceleration (along the three Cartesian axes), orientation ( Roll, Pitch and Yaw) and angular velocity (along the three Cartesian axes). Furthermore, data were collected making some specific maneuvers such as narrow curves, rapid acceleration and strong breaking performed both separated and together in order to see different results.\\
 At the end, these experimental data were elaborated in MATLAB and then, merging both the parameters from the catalogues and the experimental ones, two final tables were created. Table \ref{t:SystemRequirements1} and Table \ref{t:SystemRequirements2} collect the parameters that will be used for the development of this project. 
-\section{Indexes}
+
 \begin{table}[h]
 \centering
 \begin{tabular}{C{0.5cm}C{1.3cm}C{1.3cm}C{1.3cm}}
@@ -164,17 +171,20 @@ At the end, these experimental data were elaborated in MATLAB and then, merging 
 \label{t:SystemRequirements2}
 \end{table}
 
-Starting from the above mentioned parameters, performance indexes have been identified and divided in three main groups. To each of them, a priority coefficient (P) has been assigned. The general reasoning behind the definition of the kinematic indexes is based on the hypothesis that a good and uniform behaviour in the correlation between engineering parameters has a bigger impact on the performance of the system than the parameters themselves seen as stand alone. The kinematics objectives are:
+
+\section{Indexes}
+Starting from the above mentioned parameters, performance indexes have been identified and divided in three main groups. To each of them, a priority coefficient (P) has been assigned.
+\\The general reasoning behind the definition of the kinematic indexes is based on the hypothesis that a good and uniform behaviour in the correlation between engineering parameters has a bigger impact on the performance of the system than the parameters themselves seen as stand alone. The kinematics objectives are:
 \begin{itemize}
-	\item optimization of Sway - Yaw, Sway - Roll, and Surge - Pitch workspaces | P = 10;
-	\item small error between desired and actual parameters regarding pose of the platform and its velocity | P = 7;
-	\item small changes of output variables (platform) after big changes in the input ones (actuator) | P = 5;
-	\item small ratio between lateral 1D workspace and envelope | P = 4.
+	\item optimization of Sway - Yaw, Sway - Roll, and Surge - Pitch workspaces $\mid$ P = 10;
+	\item small error between desired and actual parameters regarding pose of the platform and its velocity $\mid$ P = 7;
+	\item small changes of output variables (platform) after big changes in the input ones (actuator) $\mid$ P = 5;
+	\item small ratio between lateral 1D workspace and envelope $\mid$ P = 4.
 \end{itemize}
-\\ The most important dynamics indexes correlates kinematic variables (angles) of the platform with their second derivative. The aim is to obtain:
+The most important dynamics indexes correlates kinematic variables (angles) of the platform with their second derivative. The aim is to obtain:
 \begin{itemize}
-	\item uniform dynamic behaviour in each zone of the workspace, for each plane. This means optimization of the workspaces between Roll and Pitch angles and their second derivatives | P = 10;
-	\item small error between desired and actual values of maximum angular and linear acceleration | P = 7.
+	\item uniform dynamic behaviour in each zone of the workspace, for each plane. This means optimization of the workspaces between Roll and Pitch angles and their second derivatives $\mid$ P = 10;
+	\item small error between desired and actual values of maximum angular and linear acceleration $\mid$ P = 7.
 \end{itemize}
 Cross planes requirements have not been assigned in this initial stage.
 \\ The identification of the control indexes is based on the hypothesis that low frequency dynamics - with high amplitude - requires absence of overshoot, accepting a loss in the rapidity to convergence to the desired state, so that the user's feel is realistic. On the other side, high frequency dynamics - with low amplitude - should involve rapid convergence to the desired state, accepting a certain value of overshoot. This approach, in first hypothesis, should not compromise the user experience.
