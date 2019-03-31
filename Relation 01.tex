@@ -100,7 +100,7 @@
 
 \begin{document}
 \maketitle
-The objective of this project is to develope, analyze and optimize the performance of an innovative driving simulator.
+The objective of this project is to develop, analyze and optimize the performance of an innovative driving simulator.
 A simulator is a device that enables the operator to reproduce or represent under test conditions phenomena likely to occur in actual performance.
 Driving simulators are in general used both for research purposes and in the development process of a vehicle.
 
@@ -111,7 +111,7 @@ The simulator has to emulate the behaviour of a car like the one shown in Figure
 	\caption{Referee system used.}
 	\label{f:RefereeSystem}
 \end{figure}
-In the first phase of the project it is relevant to impose a correct set of objective which are composed by system requirements, engineering specifications and performance indices.
+In the first phase of the project it is relevant to impose a correct set of objective which are composed by system requirements, engineering specifications and performance indexes.
 To make the correct choice literature have been consulted and physical tests have been conduced.
 
 \begin{figure}[h!]
@@ -173,8 +173,8 @@ Starting from the above mentioned parameters, performance indexes have been iden
 \end{itemize}
 \\ The most important dynamics indexes correlates kinematic variables (angles) of the platform with their second derivative. The aim is to obtain:
 \begin{itemize}
-\item uniform dynamic behaviour in each zone of the workspace, for each plane. This means optimization of the workspaces between Roll and Pitch angles and their second derivatives | P = 10;
-\item small error between desired and actual values of maximum angular and linear acceleration | P = 7.
+	\item uniform dynamic behaviour in each zone of the workspace, for each plane. This means optimization of the workspaces between Roll and Pitch angles and their second derivatives | P = 10;
+	\item small error between desired and actual values of maximum angular and linear acceleration | P = 7.
 \end{itemize}
 Cross planes requirements have not been assigned in this initial stage.
 \\ The identification of the control indexes is based on the hypothesis that low frequency dynamics - with high amplitude - requires absence of overshoot, accepting a loss in the rapidity to convergence to the desired state, so that the user's feel is realistic. On the other side, high frequency dynamics - with low amplitude - should involve rapid convergence to the desired state, accepting a certain value of overshoot. This approach, in first hypothesis, should not compromise the user experience.
