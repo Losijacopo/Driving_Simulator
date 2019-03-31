@@ -115,7 +115,7 @@ The simulator has to emulate the behaviour of a car like the one shown in Figure
 	\label{f:ReferenceSystem}
 \end{figure}
 In the first phase of the project it is relevant to impose a correct set of objectives (system requirements), in form of engineering specifications and performance indexes.
-To make the correct choice literature have been consulted and physical tests have been conduced.
+To make the correct choice literature have been consulted and physical tests have been carried out.
 
 \begin{figure}[h!]
 	\centering
@@ -189,16 +189,16 @@ The kinematics objectives are:
 	\item optimization of Sway - Yaw, Sway - Roll, and Surge - Pitch workspaces $\mid$ P = 10;
 	\item small error between desired and actual parameters regarding pose of the platform and its velocity $\mid$ P = 7;
 	\item small changes of output variables (platform) after big changes in the input ones (actuator) $\mid$ P = 5;
-	\item small ratio between lateral 1D workspace and envelope $\mid$ P = 4.
+	\item small ratio between lateral 1D envelope and workspace $\mid$ P = 4.
 \end{itemize}
 
-The most important dynamics indexes correlate kinematic variables (angles) of the platform with their second derivative.
+The most important dynamics indexes correlate kinematics variables (angles) of the platform with their second derivative.
 The aim is to obtain:
 \begin{itemize}
 	\item uniform dynamic behaviour in each zone of the workspace, for each plane. This means optimization of the workspaces between Roll and Pitch angles and their second derivatives $\mid$ P = 10;
 	\item small error between desired and actual values of maximum angular and linear acceleration $\mid$ P = 7.
 \end{itemize}
-Cross planes requirements have not been assigned in this initial stage.
+Cross planes dynamics requirements have not been assigned in this initial stage.
 
 The identification of the control indexes is based on the hypothesis that low frequency dynamics - with high amplitude - requires absence of overshoot, accepting a loss in the rapidity to convergence to the desired state, so that the user's feel is realistic.
 On the other side, high frequency dynamics - with low amplitude - should involve rapid convergence to the desired state, accepting a certain value of overshoot.
