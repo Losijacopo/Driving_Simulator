@@ -140,11 +140,10 @@ To make the correct choice literature have been consulted and physical tests hav
 
 \section{Project Parameters}
 In order to choose the right parameters to implement in the driving simulator it was decided to start from two different models of already developed structure for driving simulation.\\
-The first one is the Advanced VehicleDriving Simulator (aVDS)developed by ABDynamics (that is the structure on which this project is mainly based). Moreover, in order to obtain more data and to make a comparison with other systems usually exploited in this field, it was analysed the parameters of the 6DOF Motion System designed by CKAS Mechatronics.\\
-After that, focusing on the decision of checking if the design parameters given by the catalogues were actually correlated to a real behaviour of a car, it was decided to take some experimental data. In order to do this, it was taken a common car and exploiting the functionalities of the Matlab application available for smartphones, it was collected some data as: linear acceleration (along the three Cartesian axes), orientation ( Roll, Pitch and Yaw) and angular velocity (along the three Cartesian axes). Furthermore, making some specific maneuvers as narrow curves and rapid acceleration and strong breaking performed both separated and together in order to see different results.\\
-At the end, these experimental data were elaborated in Matlab and then, merging both the parameters from the catalogues and the experimental ones, it was created a final table that collects the parameters that will be used for the developing of this project. 
+The first one is the Advanced VehicleDriving Simulator (aVDS) developed by ABDynamics (that is the structure on which this project is mainly based). Moreover, in order to obtain more data and to make a comparison with other systems usually exploited in this field, it was analysed the parameters of the 6DOF Motion System designed by CKAS Mechatronics.\\
+After that, focusing on the decision of checking if the design parameters given by the catalogues were actually correlated to a real behaviour of a car, it was decided to take some experimental data. In order to do this, it was taken a common car and exploiting the functionalities of the MATLAB application available for smartphones, it was collected some data as: linear acceleration (along the three Cartesian axes), orientation ( Roll, Pitch and Yaw) and angular velocity (along the three Cartesian axes). Furthermore, making some specific maneuvers as narrow curves and rapid acceleration and strong breaking performed both separated and together in order to see different results.\\
+At the end, these experimental data were elaborated in MATLAB and then, merging both the parameters from the catalogues and the experimental ones, two final tables were created. Table \ref{t:SystemRequirements1} and Table \ref{t:SystemRequirements2} collect the parameters that will be used for the development of this project. 
 \section{Indexes}
-Starting from the above mentioned parameters, performance indexes have been identified and divided in three main groups, two of them are shown in Table \ref{t:SystemRequirements1} and in Table \ref{t:SystemRequirements2}.
 \begin{table}[h]
 \centering
 \begin{tabular}{C{0.5cm}C{1.3cm}C{1.3cm}C{1.3cm}}
@@ -178,7 +177,8 @@ Starting from the above mentioned parameters, performance indexes have been iden
 \caption{Dimensional system requirements. \textbf{P} = limitations [\( mm \)], \textbf{V} = velocity [\( mm/s \)], \textbf{A} = acceleration [\( m/s^2 \)] and \textbf{B} = bandwidth [\( Hz \)].}
 \label{t:SystemRequirements2}
 \end{table}
-To each of them, a priority coefficient (\( P \)) has been assigned.
+
+Starting from these parameters, performance indexes have been identified and divided in three main groups. To each of them, a priority coefficient (\( P \)) has been assigned.
 The general reasoning behind the definition of the kinematic indexes is based on the hypothesis that a good and uniform behaviour in the correlation between engineering parameters - that implies maximizing the workspace between linear and angular parameters - has a bigger impact on the performance of the system than the parameters themselves seen as stand alone.
 Moreover, the fact that big changes of the input variables (actuators) result in small changes of the output variables (platform) is desired, especially in the case of low amplitude movements.
 
