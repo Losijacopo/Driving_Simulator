@@ -80,16 +80,15 @@
 % ----- TITLE
 \title{
 	\large{University of Trento}\\
-	\normalsize{Depertment of Industrial Engineering}\\
 	\normalsize{Master in Mechatronics Engineering}\\
-	\vspace{0.5cm}
-	\Large{\textit{Modelling and simulation of mechatronic systems}}\\
 	\vspace{0.2cm}
-	\huge{\textbf{Development, analysis and optimization of the performance of an innovative driving simulator}}\\
+	\large{\textit{Modelling and simulation of mechatronic systems}}\\
+	\vspace{0.2cm}
+	\Large{\textbf{Development, analysis and optimization of the performance of an innovative driving simulator}}\\
 	\vspace{0.25cm}
 	\hrule
 	\vspace{0.2cm}
-	\Large{\textbf{System requirements}}\\	% Title
+	\large{\textbf{System requirements}}\\	% Title
 	\vspace{0.2cm}
 	\hrule
 }
@@ -107,7 +106,7 @@ Driving simulators are in general used both for research purposes and in the dev
 The simulator has to emulate the behaviour of a car like the one shown in Figure \ref{f:RefereeSystem}.
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=7.5cm]{Images/Car_axes}
+	\includegraphics[width=5cm]{Images/Car_axes}
 	\caption{Referee system used.}
 	\label{f:RefereeSystem}
 \end{figure}
@@ -116,12 +115,12 @@ To make the correct choice literature have been consulted and physical tests hav
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=8cm]{Images/Acceleration}
+	\includegraphics[width=6cm]{Images/Acceleration}
 \end{figure}
 
 \begin{figure}[h!]
 	\centering
-	\includegraphics[width=8cm]{Images/FFTStationary}
+	\includegraphics[width=6cm]{Images/FFTStationary}
 \end{figure}
 
 \section{Project Parameters}
@@ -129,7 +128,7 @@ In order to choose the right parameters to implement in the driving simulator it
 The first one is the Advanced VehicleDriving Simulator (aVDS) developed by ABDynamics (that is the structure on which this project is mainly based). Moreover, in order to obtain more data and to make a comparison with other systems usually exploited in this field, it was analysed the parameters of the 6DOF Motion System designed by CKAS Mechatronics.\\
 After that, focusing on the decision of checking if the design parameters given by the catalogues were actually correlated to a real behaviour of a car, it was decided to take some experimental data. In order to do this, it was taken a common car and exploiting the functionalities of the MATLAB application available for smartphones, it was collected some data as: linear acceleration (along the three Cartesian axes), orientation ( Roll, Pitch and Yaw) and angular velocity (along the three Cartesian axes). Furthermore, making some specific maneuvers as narrow curves and rapid acceleration and strong breaking performed both separated and together in order to see different results.\\
 At the end, these experimental data were elaborated in MATLAB and then, merging both the parameters from the catalogues and the experimental ones, two final tables were created. Table \ref{t:SystemRequirements1} and Table \ref{t:SystemRequirements2} collect the parameters that will be used for the development of this project. 
-\section{Indexes}
+
 \begin{table}[h]
 \centering
 \begin{tabular}{C{0.5cm}C{1.3cm}C{1.3cm}C{1.3cm}}
@@ -163,7 +162,7 @@ At the end, these experimental data were elaborated in MATLAB and then, merging 
 \caption{Dimensional system requirements. \textbf{P} = limitations [\( mm \)], \textbf{V} = velocity [\( mm/s \)], \textbf{A} = acceleration [\( m/s^2 \)] and \textbf{B} = bandwidth [\( Hz \)].}
 \label{t:SystemRequirements2}
 \end{table}
-
+\section{Indexes}
 Starting from the above mentioned parameters, performance indexes have been identified and divided in three main groups. To each of them, a priority coefficient (P) has been assigned. The general reasoning behind the definition of the kinematic indexes is based on the hypothesis that a good and uniform behaviour in the correlation between engineering parameters has a bigger impact on the performance of the system than the parameters themselves seen as stand alone. The kinematics objectives are:
 \begin{itemize}
 	\item optimization of Sway - Yaw, Sway - Roll, and Surge - Pitch workspaces | P = 10;
@@ -171,7 +170,7 @@ Starting from the above mentioned parameters, performance indexes have been iden
 	\item small changes of output variables (platform) after big changes in the input ones (actuator) | P = 5;
 	\item small ratio between lateral 1D workspace and envelope | P = 4.
 \end{itemize}
-\\ The most important dynamics indexes correlates kinematic variables (angles) of the platform with their second derivative. The aim is to obtain:
+The most important dynamics indexes correlates kinematic variables (angles) of the platform with their second derivative. The aim is to obtain:
 \begin{itemize}
 	\item uniform dynamic behaviour in each zone of the workspace, for each plane. This means optimization of the workspaces between Roll and Pitch angles and their second derivatives | P = 10;
 	\item small error between desired and actual values of maximum angular and linear acceleration | P = 7.
