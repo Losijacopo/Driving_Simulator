@@ -183,7 +183,7 @@ Then, merging both the parameters from the catalogues and the experimental ones,
 Starting from the above mentioned parameters, performance indexes have been identified and divided into three main groups: kinematics, dynamics and control.
 Moreover, a priority coefficient (P) has been assigned to each index.
 
-The general reasoning behind the definition of the kinematics indexes is based on the hypothesis that a good and uniform behaviour in the correlation between engineering parameters has a bigger impact on the performance of the system than the parameters themselves seen as stand alone.
+The main idea behind the definition of the kinematics indexes is based on the hypothesis that a good and uniform behaviour of the correlation between engineering parameters has a bigger impact on the performance of the system than the parameters alone.
 The kinematics objectives are:
 \begin{itemize}
 	\item optimization of Sway - Yaw, Sway - Roll, and Surge - Pitch workspaces $\mid$ P = 10;
@@ -198,11 +198,11 @@ The aim is to obtain:
 	\item uniform dynamic behaviour in each zone of the workspace, for each plane. This means optimization of the workspaces between Roll and Pitch angles and their second derivatives $\mid$ P = 10;
 	\item small error between desired and actual values of maximum angular and linear acceleration $\mid$ P = 7.
 \end{itemize}
-Cross planes dynamics requirements have not been assigned in this initial stage.
+Cross planes dynamics requirements have not been assigned in this early stage.
 
-The identification of the control indexes is based on the hypothesis that low frequency dynamics - with high amplitude - requires absence of overshoot, accepting a loss in the rapidity to convergence to the desired state, so that the user's feel is realistic.
+The identification of the control indexes is based on the hypothesis that low frequency dynamics - with high amplitude - requires absence of overshoot, accepting a loss in the rapidity to converge to the desired state, so that the user's feel is realistic.
 On the other side, high frequency dynamics - with low amplitude - should involve rapid convergence to the desired state, accepting a certain value of overshoot.
-This approach, in first hypothesis, should not compromise the user experience.
+Under first hypothesis, this approach is expected not to compromise the user experience.
 
 \begin{thebibliography}{}
 \bibitem{aVDS}
