@@ -114,20 +114,6 @@ The simulator has to emulate the behaviour of a car like the one shown in Figure
 In the first phase of the project it is relevant to impose a correct set of objective which are composed by system requirements, engineering specifications and performance indices.
 To make the correct choice literature have been consulted and physical tests have been conduced.
 
-
-\colorbox{yellow}{***}\\
-
-
-\colorbox{yellow}{PARAMETRI E RELATIVE FONTI}\\
-\colorbox{yellow}{catalogo}\\
-\colorbox{yellow}{sperimentale}
-
-\colorbox{yellow}{INDICI DI PERFORMANCE}\\
-\colorbox{yellow}{cinematici}\\
-\colorbox{orange}{dinamici}
-
-
-
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=8cm]{Images/Acceleration}
@@ -178,21 +164,20 @@ At the end, these experimental data were elaborated in MATLAB and then, merging 
 \label{t:SystemRequirements2}
 \end{table}
 
-Starting from these parameters, performance indexes have been identified and divided in three main groups. To each of them, a priority coefficient (\( P \)) has been assigned.
-The general reasoning behind the definition of the kinematic indexes is based on the hypothesis that a good and uniform behaviour in the correlation between engineering parameters - that implies maximizing the workspace between linear and angular parameters - has a bigger impact on the performance of the system than the parameters themselves seen as stand alone.
-Moreover, the fact that big changes of the input variables (actuators) result in small changes of the output variables (platform) is desired, especially in the case of low amplitude movements.
-
-The most important dynamics indexes correlates kinematic variables (angles) of the platform with their second derivative.
-The aim is to obtain a uniform dynamic behaviour in each zone of the workspace.
+Starting from the above mentioned parameters, performance indexes have been identified and divided in three main groups. To each of them, a priority coefficient (P) has been assigned. The general reasoning behind the definition of the kinematic indexes is based on the hypothesis that a good and uniform behaviour in the correlation between engineering parameters has a bigger impact on the performance of the system than the parameters themselves seen as stand alone. The kinematics objectives are:
+\begin{itemize}
+	\item optimization of Sway - Yaw, Sway - Roll, and Surge - Pitch workspaces | P = 10;
+	\item small error between desired and actual parameters regarding pose of the platform and its velocity | P = 7;
+	\item small changes of output variables (platform) after big changes in the input ones (actuator) | P = 5;
+	\item small ratio between lateral 1D workspace and envelope | P = 4.
+\end{itemize}
+\\ The most important dynamics indexes correlates kinematic variables (angles) of the platform with their second derivative. The aim is to obtain:
+\begin{itemize}
+\item uniform dynamic behaviour in each zone of the workspace, for each plane. This means optimization of the workspaces between Roll and Pitch angles and their second derivatives | P = 10;
+\item small error between desired and actual values of maximum angular and linear acceleration | P = 7.
+\end{itemize}
 Cross planes requirements have not been assigned in this initial stage.
-
-The identification of the control indexes is based on the hypothesis that low frequency dynamics - with high amplitude - requires absence of overshoot, accepting a loss in the rapidity to convergence to the desired state, so that the user's feel is realistic.
-On the other side, high frequency dynamics - with low amplitude - should involve rapid convergence to the desired state, accepting a certain value of overshoot.
-This approach, in first hypothesis, should not compromise the user experience.
-
-
-
-
+\\ The identification of the control indexes is based on the hypothesis that low frequency dynamics - with high amplitude - requires absence of overshoot, accepting a loss in the rapidity to convergence to the desired state, so that the user's feel is realistic. On the other side, high frequency dynamics - with low amplitude - should involve rapid convergence to the desired state, accepting a certain value of overshoot. This approach, in first hypothesis, should not compromise the user experience.
 
 \begin{thebibliography}{}
 \bibitem{aVDS}
