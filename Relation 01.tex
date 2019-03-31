@@ -120,22 +120,22 @@ To make the correct choice literature have been consulted and physical tests hav
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=7cm]{Images/Acceleration}
-	\caption{Sperimental acceleration data obtained from a car.}
+	\caption{Experimental acceleration data obtained from a car.}
 	\label{f:Acceleration}
 \end{figure}
 
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=7cm]{Images/FFTStationary}
-	\caption{Fast Fourier transform of the acceleration data.}
+	\caption{Fast Fourier transform of a window of the acceleration data.}
 	\label{f:FFT}
 \end{figure}
 
 \section{Project Parameters}
 In order to choose the right parameters to implement in the driving simulator it was decided to start from two different models of already developed structures for driving simulators.\\
 The first one is the Advanced VehicleDriving Simulator (aVDS) developed by ABDynamics (that is the structure on which this project is mainly based). Moreover, in order to obtain more data and to make a comparison with other systems usually exploited in this field, it was analysed the parameters of the 6DOF Motion System designed by CKAS Mechatronics.\\
-After that, focusing on the decision of checking if the design parameters given by the catalogues were actually correlated to a real behaviour of a car, it was decided to take some experimental data. In order to do this, it was taken a common car and exploiting the functionalities of the MATLAB application available for smartphones, some data were collected: linear acceleration (along the three Cartesian axes), orientation ( Roll, Pitch and Yaw) and angular velocity (along the three Cartesian axes). Furthermore, data were collected making some specific maneuvers such as narrow curves, rapid acceleration and strong breaking performed both separated and together in order to see different results.\\
-At the end, these experimental data were elaborated in MATLAB and then, merging both the parameters from the catalogues and the experimental ones, two final tables were created. Table \ref{t:SystemRequirements1} and Table \ref{t:SystemRequirements2} collect the parameters that will be used for the development of this project. 
+After that, focusing on the decision of checking if the design parameters given by the catalogues were actually correlated to a real behaviour of a car, it was decided to take some experimental data. In order to do this, it was taken a common car and exploiting the functionalities of the MATLAB application available for smartphones, some data were collected: linear acceleration (along the three Cartesian axes), orientation ( Roll, Pitch and Yaw) and angular velocity (along the three Cartesian axes). Furthermore, data were collected making some specific maneuvers such as narrow curves, rapid acceleration and strong breaking performed both separated and together in order to see different results. \\
+At the end, these experimental data were elaborated in MATLAB. Two of the most important examples of the obtained results are shown in Figure \ref{f:Acceleration} and \ref{f:FFT}. Then, merging both the parameters from the catalogues and the experimental ones, two final tables were created. Table \ref{t:SystemRequirements1} and Table \ref{t:SystemRequirements2} collect the parameters that will be used for the development of this project. 
 
 \begin{table}[h]
 \centering
