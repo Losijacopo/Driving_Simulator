@@ -1,7 +1,7 @@
-PWD C:/Users/Stefano/Documents/GitHub/Driving_Simulator/01 Project requirements
+PWD C:/Users/Stefano/Documents/GitHub/Driving_Simulator/02 Kinematic analysis
 INPUT C:/Users/Stefano/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt
-INPUT Relation 01.tex
-OUTPUT Relation 01.log
+INPUT Relation 02.tex
+OUTPUT Relation 02.log
 INPUT C:/MyPrograms/MiKTeX/tex/latex/base/article.cls
 INPUT C:/MyPrograms/MiKTeX/tex/latex/base/article.cls
 INPUT C:/MyPrograms/MiKTeX/tex/latex/base/size10.clo
@@ -301,16 +301,16 @@ INPUT C:/MyPrograms/MiKTeX/tex/latex/was/gensymb.sty
 INPUT C:/MyPrograms/MiKTeX/tex/latex/was/gensymb.sty
 INPUT C:/MyPrograms/MiKTeX/tex/latex/enumitem/enumitem.sty
 INPUT C:/MyPrograms/MiKTeX/tex/latex/enumitem/enumitem.sty
-OUTPUT Relation 01.idx
+OUTPUT Relation 02.idx
 INPUT C:/MyPrograms/MiKTeX/tex/latex/listings/lstlang1.sty
 INPUT C:/MyPrograms/MiKTeX/tex/latex/listings/lstlang1.sty
 INPUT C:/MyPrograms/MiKTeX/tex/latex/listings/lstlang1.sty
 INPUT C:/MyPrograms/MiKTeX/tex/latex/listings/lstlang1.sty
 INPUT C:/MyPrograms/MiKTeX/tex/latex/listings/lstlang1.sty
 INPUT C:/MyPrograms/MiKTeX/tex/latex/listings/lstlang1.sty
-INPUT Relation 01.aux
-INPUT Relation 01.aux
-OUTPUT Relation 01.aux
+INPUT Relation 02.aux
+INPUT Relation 02.aux
+OUTPUT Relation 02.aux
 INPUT C:/MyPrograms/MiKTeX/tex/latex/base/ts1cmr.fd
 INPUT C:/MyPrograms/MiKTeX/tex/latex/base/ts1cmr.fd
 INPUT C:/MyPrograms/MiKTeX/tex/latex/lm/ot1lmr.fd
@@ -334,121 +334,7 @@ INPUT C:/MyPrograms/MiKTeX/tex/latex/hyperref/nameref.sty
 INPUT C:/MyPrograms/MiKTeX/tex/latex/hyperref/nameref.sty
 INPUT C:/MyPrograms/MiKTeX/tex/generic/oberdiek/gettitlestring.sty
 INPUT C:/MyPrograms/MiKTeX/tex/generic/oberdiek/gettitlestring.sty
-INPUT Relation 01.out
-INPUT Relation 01.out
-INPUT Relation 01.out
-INPUT Relation 01.out
-OUTPUT Relation 01.pdf
-INPUT ./Relation 01.out
-INPUT ./Relation 01.out
-OUTPUT Relation 01.out
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/rm-lmr7.tfm
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/rm-lmr5.tfm
-INPUT C:/MyPrograms/MiKTeX/tex/latex/lm/omllmm.fd
-INPUT C:/MyPrograms/MiKTeX/tex/latex/lm/omllmm.fd
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/lmmi10.tfm
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/lmmi7.tfm
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/lmmi5.tfm
-INPUT C:/MyPrograms/MiKTeX/tex/latex/lm/omslmsy.fd
-INPUT C:/MyPrograms/MiKTeX/tex/latex/lm/omslmsy.fd
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/lmsy10.tfm
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/lmsy7.tfm
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/lmsy5.tfm
-INPUT C:/MyPrograms/MiKTeX/tex/latex/lm/omxlmex.fd
-INPUT C:/MyPrograms/MiKTeX/tex/latex/lm/omxlmex.fd
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/lmex10.tfm
-INPUT C:/MyPrograms/MiKTeX/tex/latex/jknappen/ursfs.fd
-INPUT C:/MyPrograms/MiKTeX/tex/latex/jknappen/ursfs.fd
-INPUT C:/Users/Stefano/AppData/Local/MiKTeX/2.9/fonts/tfm/public/rsfs/rsfs10.tfm
-INPUT C:/Users/Stefano/AppData/Local/MiKTeX/2.9/fonts/tfm/public/rsfs/rsfs7.tfm
-INPUT C:/Users/Stefano/AppData/Local/MiKTeX/2.9/fonts/tfm/public/rsfs/rsfs5.tfm
-INPUT C:/MyPrograms/MiKTeX/tex/latex/lm/ts1lmr.fd
-INPUT C:/MyPrograms/MiKTeX/tex/latex/lm/ts1lmr.fd
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/ts1-lmr10.tfm
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/ts1-lmr7.tfm
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/ts1-lmr5.tfm
-INPUT C:/MyPrograms/MiKTeX/tex/latex/lm/ot1lmss.fd
-INPUT C:/MyPrograms/MiKTeX/tex/latex/lm/ot1lmss.fd
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/rm-lmss10.tfm
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/rm-lmss8.tfm
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/rm-lmss8.tfm
-INPUT C:/MyPrograms/MiKTeX/tex/latex/lm/ot1lmtt.fd
-INPUT C:/MyPrograms/MiKTeX/tex/latex/lm/ot1lmtt.fd
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/rm-lmtt10.tfm
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/rm-lmtt8.tfm
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/rm-lmtt8.tfm
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/rm-lmr17.tfm
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/rm-lmr12.tfm
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/rm-lmri12.tfm
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/rm-lmr12.tfm
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/rm-lmbx12.tfm
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/rm-lmbx12.tfm
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/rm-lmr8.tfm
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/rm-lmr6.tfm
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/lmmi12.tfm
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/lmmi8.tfm
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/lmmi6.tfm
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/lmsy10.tfm
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/lmsy8.tfm
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/lmsy6.tfm
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/rm-lmss12.tfm
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/rm-lmss8.tfm
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/rm-lmss8.tfm
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/rm-lmtt12.tfm
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/rm-lmtt8.tfm
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/rm-lmtt8.tfm
-INPUT C:/Users/Stefano/AppData/Local/MiKTeX/2.9/fonts/tfm/public/rsfs/rsfs10.tfm
-INPUT C:/Users/Stefano/AppData/Local/MiKTeX/2.9/fonts/tfm/public/rsfs/rsfs10.tfm
-INPUT C:/Users/Stefano/AppData/Local/MiKTeX/2.9/fonts/tfm/public/rsfs/rsfs5.tfm
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/ts1-lmr12.tfm
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/ts1-lmr8.tfm
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/ts1-lmr6.tfm
-INPUT Images/Car_axes.png
-INPUT ./Images/Car_axes.png
-INPUT ./Images/Car_axes.png
-INPUT ./Images/Car_axes.png
-INPUT ./Images/Car_axes.png
-INPUT Images/Acceleration.png
-INPUT ./Images/Acceleration.png
-INPUT ./Images/Acceleration.png
-INPUT ./Images/Acceleration.png
-INPUT ./Images/Acceleration.png
-INPUT Images/FFTStationary.png
-INPUT ./Images/FFTStationary.png
-INPUT ./Images/FFTStationary.png
-INPUT ./Images/FFTStationary.png
-INPUT ./Images/FFTStationary.png
-INPUT C:/Users/Stefano/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/rm-lmbx10.tfm
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/rm-lmri10.tfm
-INPUT C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/rm-lmcsc10.tfm
-INPUT Relation 01.aux
-INPUT ./Relation 01.out
-INPUT ./Relation 01.out
-INPUT C:/MyPrograms/MiKTeX/fonts/enc/dvips/lm/lm-rmsc.enc
-INPUT C:/MyPrograms/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc
-INPUT C:/MyPrograms/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc
-INPUT C:/MyPrograms/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc
-INPUT C:/MyPrograms/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc
-INPUT C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmbx10.pfb
-INPUT C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmbx10.pfb
-INPUT C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmbx12.pfb
-INPUT C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmbx12.pfb
-INPUT C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb
-INPUT C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb
-INPUT C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmmi10.pfb
-INPUT C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmmi10.pfb
-INPUT C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmr10.pfb
-INPUT C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmr10.pfb
-INPUT C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmr12.pfb
-INPUT C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmr12.pfb
-INPUT C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmr7.pfb
-INPUT C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmr7.pfb
-INPUT C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmri10.pfb
-INPUT C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmri10.pfb
-INPUT C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmri12.pfb
-INPUT C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmri12.pfb
-INPUT C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmsy10.pfb
-INPUT C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmsy10.pfb
-INPUT C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmsy7.pfb
-INPUT C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmsy7.pfb
+INPUT Relation 02.out
+INPUT Relation 02.out
+INPUT Relation 02.out
+INPUT Relation 02.out

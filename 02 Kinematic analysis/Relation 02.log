@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.1.12)  3 APR 2019 14:45
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.1.12)  29 APR 2019 17:50
 entering extended mode
-**"./Relation 01.tex"
-("Relation 01.tex"
+**"./Relation 02.tex"
+("Relation 02.tex"
 LaTeX2e <2016/03/31> patch level 3
 Babel <3.9r> and hyphenation patterns for 75 language(s) loaded.
 (C:\MyPrograms\MiKTeX\tex\latex\base\article.cls
@@ -1671,12 +1671,12 @@ Package: enumitem 2011/09/28 v3.5.2 Customized lists
 \enit@inbox=\box76
 \enitdp@description=\count315
 )
-LaTeX Info: Redefining \officialeuro on input line 43.
-\"Relation 01"@idxfile=\write5
-\openout5 = `"Relation 01.idx"'.
+LaTeX Info: Redefining \officialeuro on input line 42.
+\"Relation 02"@idxfile=\write5
+\openout5 = `"Relation 02.idx"'.
 
 
-Writing index file "Relation 01".idx
+Writing index file "Relation 02".idx
 (C:\MyPrograms\MiKTeX\tex\latex\listings\lstlang1.sty
 File: lstlang1.sty 2015/06/04 1.6 listings language file
 )
@@ -1690,31 +1690,31 @@ File: lstlang1.sty 2015/06/04 1.6 listings language file
 LaTeX Warning: Unused global option(s):
     [10.5pt].
 
-("Relation 01.aux")
-\openout1 = `"Relation 01.aux"'.
+("Relation 02.aux")
+\openout1 = `"Relation 02.aux"'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 104.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 104.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 103.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 103.
 
  (C:\MyPrograms\MiKTeX\tex\latex\base\ts1cmr.fd
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 104.
-LaTeX Font Info:    ... okay on input line 104.
-LaTeX Font Info:    Try loading font information for OT1+lmr on input line 104.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 103.
+LaTeX Font Info:    ... okay on input line 103.
+LaTeX Font Info:    Try loading font information for OT1+lmr on input line 103.
 
 
 (C:\MyPrograms\MiKTeX\tex\latex\lm\ot1lmr.fd
@@ -1761,15 +1761,15 @@ File: siunitx-abbreviations.cfg 2017/02/19 v2.7d siunitx: Abbreviated units
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
 * modes: 
-* h-part:(L,W,R)=(71.1319pt, 455.24408pt, 71.1319pt)
-* v-part:(T,H,B)=(76.25339pt, 654.41338pt, 114.38008pt)
+* h-part:(L,W,R)=(92.47145pt, 412.56496pt, 92.47147pt)
+* v-part:(T,H,B)=(99.01556pt, 597.50787pt, 148.5234pt)
 * \paperwidth=597.50787pt
 * \paperheight=845.04684pt
-* \textwidth=455.24408pt
-* \textheight=654.41338pt
-* \oddsidemargin=-1.13809pt
-* \evensidemargin=-1.13809pt
-* \topmargin=-33.0166pt
+* \textwidth=412.56496pt
+* \textheight=597.50787pt
+* \oddsidemargin=20.20146pt
+* \evensidemargin=20.20146pt
+* \topmargin=-10.25443pt
 * \headheight=12.0pt
 * \headsep=25.0pt
 * \topskip=10.0pt
@@ -1803,7 +1803,7 @@ ABD: EveryShipout initializing macros
 Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )
-Package hyperref Info: Link coloring OFF on input line 104.
+Package hyperref Info: Link coloring OFF on input line 103.
 
 (C:\MyPrograms\MiKTeX\tex\latex\hyperref\nameref.sty
 Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
@@ -1813,104 +1813,106 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count323
 )
-LaTeX Info: Redefining \ref on input line 104.
-LaTeX Info: Redefining \pageref on input line 104.
-LaTeX Info: Redefining \nameref on input line 104.
+LaTeX Info: Redefining \ref on input line 103.
+LaTeX Info: Redefining \pageref on input line 103.
+LaTeX Info: Redefining \nameref on input line 103.
 
-("Relation 01.out") ("Relation 01.out")
+("Relation 02.out") ("Relation 02.out")
 \@outlinefile=\write6
-\openout6 = `"Relation 01.out"'.
+\openout6 = `"Relation 02.out"'.
 
 \symgns@font=\mathgroup5
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/lmr/m/n --> TS1/lmr/bx/n on input line 104.
-Package gensymb Info: Math companion symbols declared on input line 104.
-LaTeX Info: Redefining \degree on input line 104.
-LaTeX Info: Redefining \celsius on input line 104.
+(Font)                  TS1/lmr/m/n --> TS1/lmr/bx/n on input line 103.
+Package gensymb Info: Math companion symbols declared on input line 103.
+LaTeX Info: Redefining \degree on input line 103.
+LaTeX Info: Redefining \celsius on input line 103.
 Package gensymb Info: Using text companion symbols for \degree, \celsius and \p
-erthousand on input line 104.
-LaTeX Info: Redefining \ohm on input line 104.
-Package gensymb Info: Using \textohm for \ohm on input line 104.
-LaTeX Info: Redefining \micro on input line 104.
-Package gensymb Info: Using \textmu for \micro on input line 104.
+erthousand on input line 103.
+LaTeX Info: Redefining \ohm on input line 103.
+Package gensymb Info: Using \textohm for \ohm on input line 103.
+LaTeX Info: Redefining \micro on input line 103.
+Package gensymb Info: Using \textmu for \micro on input line 103.
 \c__siunitx_mathsf_int=\count324
-LaTeX Font Info:    Try loading font information for OML+lmm on input line 104.
+LaTeX Font Info:    Try loading font information for OML+lmm on input line 103.
 
 
 (C:\MyPrograms\MiKTeX\tex\latex\lm\omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 104
+LaTeX Font Info:    Try loading font information for OMS+lmsy on input line 103
 .
 
 (C:\MyPrograms\MiKTeX\tex\latex\lm\omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OMX+lmex on input line 104
+LaTeX Font Info:    Try loading font information for OMX+lmex on input line 103
 .
 
 (C:\MyPrograms\MiKTeX\tex\latex\lm\omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 104.
+(Font)              <10> on input line 103.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 104.
+(Font)              <7> on input line 103.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 104.
-LaTeX Font Info:    Try loading font information for U+rsfs on input line 104.
+(Font)              <5> on input line 103.
+LaTeX Font Info:    Try loading font information for U+rsfs on input line 103.
 
 (C:\MyPrograms\MiKTeX\tex\latex\jknappen\ursfs.fd
 File: ursfs.fd 1998/03/24 rsfs font definition file (jk)
 )
-LaTeX Font Info:    Try loading font information for TS1+lmr on input line 104.
+LaTeX Font Info:    Try loading font information for TS1+lmr on input line 103.
 
 
 (C:\MyPrograms\MiKTeX\tex\latex\lm\ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-LaTeX Font Info:    Try loading font information for OT1+lmss on input line 104
+LaTeX Font Info:    Try loading font information for OT1+lmss on input line 103
 .
 
 (C:\MyPrograms\MiKTeX\tex\latex\lm\ot1lmss.fd
 File: ot1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 \c__siunitx_mathtt_int=\count325
-LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 104
+LaTeX Font Info:    Try loading font information for OT1+lmtt on input line 103
 .
 
 (C:\MyPrograms\MiKTeX\tex\latex\lm\ot1lmtt.fd
 File: ot1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 105.
+(Font)              <12> on input line 104.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 105.
+(Font)              <8> on input line 104.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 105.
+(Font)              <6> on input line 104.
 
-<Images/Car_axes.png, id=15, 550.4565pt x 308.352pt>
-File: Images/Car_axes.png Graphic file (type png)
- <use Images/Car_axes.png>
-Package pdftex.def Info: Images/Car_axes.png used on input line 113.
-(pdftex.def)             Requested size: 184.9429pt x 103.59615pt.
+<Images/Mechanism_TopView.png, id=31, 526.96875pt x 339.06676pt>
+File: Images/Mechanism_TopView.png Graphic file (type png)
 
-<Images/Acceleration.png, id=16, 828.2142pt x 580.44855pt>
-File: Images/Acceleration.png Graphic file (type png)
+<use Images/Mechanism_TopView.png>
+Package pdftex.def Info: Images/Mechanism_TopView.png used on input line 113.
+(pdftex.def)             Requested size: 199.16928pt x 128.15341pt.
 
-<use Images/Acceleration.png>
-Package pdftex.def Info: Images/Acceleration.png used on input line 122.
-(pdftex.def)             Requested size: 199.16928pt x 139.58505pt.
+<Images/Mechanism_LateralView.png, id=34, 673.91776pt x 244.5135pt>
+File: Images/Mechanism_LateralView.png Graphic file (type png)
+
+<use Images/Mechanism_LateralView.png>
+Package pdftex.def Info: Images/Mechanism_LateralView.png used on input line 12
+4.
+(pdftex.def)             Requested size: 199.16928pt x 72.26143pt.
+
+Underfull \vbox (badness 5504) has occurred while \output is active []
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
+<Images/Sub-Mechanism.png, id=38, 866.63776pt x 552.26324pt>
+File: Images/Sub-Mechanism.png Graphic file (type png)
 
-<Images/FFTStationary.png, id=17, 828.2142pt x 580.44855pt>
-File: Images/FFTStationary.png Graphic file (type png)
-
-<use Images/FFTStationary.png>
-Package pdftex.def Info: Images/FFTStationary.png used on input line 129.
-(pdftex.def)             Requested size: 199.16928pt x 139.58505pt.
+<use Images/Sub-Mechanism.png>
+Package pdftex.def Info: Images/Sub-Mechanism.png used on input line 136.
+(pdftex.def)             Requested size: 341.43306pt x 217.57277pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1918,44 +1920,45 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [1{C:/Users/Stefano/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
- <./Images/Car_axes.png> <./Images/Acceleration.png> <./Images/FFTStationary.pn
-g>]
+ <./Images/Mechanism_TopView.png> <./Images/Mechanism_LateralView.png>]
+Underfull \hbox (badness 3260) in paragraph at lines 164--165
+[]\OT1/lmr/m/n/10 ``\OT1/lmr/m/it/10 Advanced Ve-hi-cle Driv-ing Sim-u-la-tor\O
+T1/lmr/m/n/10 '',
+ []
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
- [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 218.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 218.
-
-("Relation 01.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 218.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 218.
-Package rerunfilecheck Info: File `"Relation 01".out' has not changed.
-(rerunfilecheck)             Checksum: 4CB71CDEF4D440EA56F52CF9BBC6DB0F;109.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 218.
+ [2 <./Images/Sub-Mechanism.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 172.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 172.
+ ("Relation 02.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 172.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 172.
+Package rerunfilecheck Info: File `"Relation 02".out' has not changed.
+(rerunfilecheck)             Checksum: 48DA5AF9B4EC85AF1428920AF39587EA;385.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 172.
  ) 
 Here is how much of TeX's memory you used:
- 32978 strings out of 493333
- 624660 string characters out of 3142231
- 879039 words of memory out of 3000000
- 35914 multiletter control sequences out of 15000+200000
- 73485 words of font info for 67 fonts, out of 3000000 for 9000
+ 33023 strings out of 493333
+ 625811 string characters out of 3142231
+ 868985 words of memory out of 3000000
+ 35957 multiletter control sequences out of 15000+200000
+ 70539 words of font info for 66 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,12n,122p,10387b,735s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 59i,9n,122p,10387b,829s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/MyPrograms/MiKTeX/fonts/enc/dvips/lm/lm-rmsc.enc}{C:/MyPrograms/MiKTeX/fo
-nts/enc/dvips/lm/lm-rm.enc}{C:/MyPrograms/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}
-{C:/MyPrograms/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/MyPrograms/MiKTeX/fo
-nts/enc/dvips/lm/lm-mathsy.enc}<C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmbx
-10.pfb><C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/MyPrograms/Mi
-KTeX/fonts/type1/public/lm/lmcsc10.pfb><C:/MyPrograms/MiKTeX/fonts/type1/public
-/lm/lmmi10.pfb><C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/MyProg
-rams/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/MyPrograms/MiKTeX/fonts/type1/p
-ublic/lm/lmr7.pfb><C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/My
-Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/MyPrograms/MiKTeX/fonts/ty
-pe1/public/lm/lmsy10.pfb><C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmsy7.pfb>
-
-Output written on "Relation 01.pdf" (2 pages, 640801 bytes).
+nts/enc/dvips/lm/lm-rm.enc}{C:/MyPrograms/MiKTeX/fonts/enc/dvips/lm/lm-mathit.e
+nc}{C:/MyPrograms/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/MyPrograms/MiKTeX/fo
+nts/type1/public/lm/lmbx12.pfb><C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmcs
+c10.pfb><C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmmi10.pfb><C:/MyPrograms/M
+iKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/MyPrograms/MiKTeX/fonts/type1/public/
+lm/lmr10.pfb><C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/MyProgra
+ms/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/MyPrograms/MiKTeX/fonts/type1/publ
+ic/lm/lmri10.pfb><C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmri12.pfb>
+Output written on "Relation 02.pdf" (2 pages, 294481 bytes).
 PDF statistics:
- 99 PDF objects out of 1000 (max. 8388607)
- 12 named destinations out of 1000 (max. 500000)
- 44 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 104 PDF objects out of 1000 (max. 8388607)
+ 15 named destinations out of 1000 (max. 500000)
+ 76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
