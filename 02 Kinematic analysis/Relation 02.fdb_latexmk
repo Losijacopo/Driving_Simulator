@@ -1,14 +1,16 @@
 # Fdb version 3
-<<<<<<< HEAD
-["makeindex Relation 02.idx"] 1556384972 "Relation 02.idx" "Relation 02.ind" "Relation 02" 1557080317
-  "Relation 02.idx" 1557080314 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
+["makeindex Relation 02.idx"] 1557582450 "Relation 02.idx" "Relation 02.ind" "Relation 02" 1557592221
+  "Relation 02.idx" 1557592218 0 d41d8cd98f00b204e9800998ecf8427e "pdflatex"
   (generated)
-  "Relation 02.ilg"
   "Relation 02.ind"
-["pdflatex"] 1557080310 "Relation 02.tex" "Relation 02.pdf" "Relation 02" 1557080317
+  "Relation 02.ilg"
+["pdflatex"] 1557592217 "Relation 02.tex" "Relation 02.pdf" "Relation 02" 1557592221
+  "C:/MyPrograms/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc" 1254938640 3486 c7eadf5dcc57b3b2d11736679f6636ba ""
   "C:/MyPrograms/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc" 1254938640 2405 5dcf2c1b967ee25cc46c58cd52244aed ""
+  "C:/MyPrograms/MiKTeX/fonts/enc/dvips/lm/lm-mathsy.enc" 1254938640 2840 216e6e45ad352e2456e1149f28885bee ""
   "C:/MyPrograms/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc" 1254938640 2327 9d6df24f9c4f7368395224341a95523a ""
   "C:/MyPrograms/MiKTeX/fonts/enc/dvips/lm/lm-rmsc.enc" 1254938640 2355 3e74b90173fc699673a5163cee277702 ""
+  "C:/MyPrograms/MiKTeX/fonts/enc/dvips/lm/lm-rmtt.enc" 1254938640 2359 de53213020575850c8f8debc35095765 ""
   "C:/MyPrograms/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc" 1254938640 3031 6c4d3515bf7115d8518af1c9ab97ca44 ""
   "C:/MyPrograms/MiKTeX/fonts/tfm/adobe/symbol/psyr.tfm" 1136772254 1408 5937f58aa508ea2cea4901c07d10f5fe ""
   "C:/MyPrograms/MiKTeX/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136772254 1528 7e12f4c0fcf5a072cebdcfbfc610f54c ""
@@ -49,6 +51,7 @@
   "C:/MyPrograms/MiKTeX/fonts/tfm/public/lm/ts1-lmr8.tfm" 1254938640 1584 a2d340944f7dc70e449dcdfd4f3f8533 ""
   "C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmbx12.pfb" 1254938640 116908 9a7a12d1e4df280ea0ab4aad83cdef88 ""
   "C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmcsc10.pfb" 1254938640 116427 4909e80035dae5d5a4ec2b5ddd9649dd ""
+  "C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmex10.pfb" 1254938640 23055 2e5b42921de910eaa97b85df04ca4891 ""
   "C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmmi10.pfb" 1254938640 30388 702fae6a5f0e6e9c48a1d872b442ffcf ""
   "C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmmi7.pfb" 1254938640 30789 39c6b966e509dbc60e7a1aaaf85d08a0 ""
   "C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmr10.pfb" 1254938640 119235 05e5c8d6d60439433e50047898c2c0e0 ""
@@ -56,6 +59,8 @@
   "C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmr7.pfb" 1254938640 121145 00b210fbe9efd7ce850c04e64670de9a ""
   "C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmri10.pfb" 1254938640 112593 fda2373ba4420af33949610de4c28fe8 ""
   "C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmri12.pfb" 1254938640 109265 e6c7d377db6dfccd4a123fb26da8cffb ""
+  "C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmsy10.pfb" 1254938640 27863 09ce3735688ffde955e72da27c95b61a ""
+  "C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmtt10.pfb" 1254938640 113227 d3d1adc024746ff57b20efba82c6d365 ""
   "C:/MyPrograms/MiKTeX/tex/context/base/supp-pdf.mkii" 1306918461 71592 fe353e1fbd982ffc647f3e98ff74da96 ""
   "C:/MyPrograms/MiKTeX/tex/generic/babel/babel.def" 1461657393 51602 8190990703f12b57db0dfe9b839e1e24 ""
   "C:/MyPrograms/MiKTeX/tex/generic/babel/babel.sty" 1461657393 13862 2379954ebbdf3db89eccb32499d2da36 ""
@@ -248,21 +253,16 @@
   "C:/Users/Stefano/AppData/Local/MiKTeX/2.9/fonts/tfm/public/rsfs/rsfs7.tfm" 1518308865 692 1b6510779f0f05e9cbf03e0f6c8361e6 ""
   "C:/Users/Stefano/AppData/Local/MiKTeX/2.9/miktex/data/le/pdftex/pdflatex.fmt" 1484244322 3819702 0717b581cbceb0e82288aa41a1d43a23 ""
   "C:/Users/Stefano/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map" 1554214641 124261 cf5bd9458cdd4b60f9c8898cdfc86a47 ""
-  "Images/Mechanism_LateralView.png" 1556385704 40408 c3f29f48b424f14bb9c64745b2032f12 ""
+  "Images/Mechanism_LateralView.png" 1557592097 39252 1f5ed722d6399a7e21144a16f6513162 ""
   "Images/Mechanism_TopView.png" 1556387425 23493 3d4790596f532eb662fe679c2324e13c ""
   "Images/Sub-Mechanism.png" 1556386661 92512 ad55d39cc1e25032195d18374c7de68b ""
-  "Relation 02.aux" 1557080315 2366 e39339387626dab0f0c82da5afcb54a4 "pdflatex"
-  "Relation 02.ind" 1556384972 0 d41d8cd98f00b204e9800998ecf8427e "makeindex Relation 02.idx"
-  "Relation 02.out" 1557080315 385 9e9a3b14f14afeec3f2a7ad0c287c8c4 "pdflatex"
-  "Relation 02.tex" 1557080306 6437 f8887b879909422b74bebeaa9c6ff159 ""
+  "Relation 02.aux" 1557592219 2546 42a5299d7214ae4a52d381413e9c0164 "pdflatex"
+  "Relation 02.ind" 1557582450 0 d41d8cd98f00b204e9800998ecf8427e "makeindex Relation 02.idx"
+  "Relation 02.out" 1557592219 463 13a535f00ea7a689a1bb2a64cf0652ed "pdflatex"
+  "Relation 02.tex" 1557592216 8707 49215c2cddb82b42663a47c897444b3f ""
   (generated)
-  "Relation 02.log"
-  "Relation 02.idx"
-  "Relation 02.log"
-  "Relation 02.out"
   "Relation 02.pdf"
->>>>>>> 8488978e440148a85a4908e49803616dea883bf8
   "Relation 02.aux"
-  "Relation 02.pdf"
+  "Relation 02.log"
   "Relation 02.idx"
   "Relation 02.out"
