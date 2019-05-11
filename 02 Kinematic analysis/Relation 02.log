@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.1.12)  29 APR 2019 17:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (MiKTeX 2.9.6210 64-bit) (preloaded format=pdflatex 2017.1.12)  11 MAY 2019 15:27
 entering extended mode
 **"./Relation 02.tex"
 ("Relation 02.tex"
@@ -1889,30 +1889,47 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 104.
 
-<Images/Mechanism_TopView.png, id=31, 526.96875pt x 339.06676pt>
-File: Images/Mechanism_TopView.png Graphic file (type png)
 
-<use Images/Mechanism_TopView.png>
-Package pdftex.def Info: Images/Mechanism_TopView.png used on input line 113.
-(pdftex.def)             Requested size: 199.16928pt x 128.15341pt.
+! LaTeX Error: File `Images/Mechanism_TopView' not found.
 
-<Images/Mechanism_LateralView.png, id=34, 673.91776pt x 244.5135pt>
-File: Images/Mechanism_LateralView.png Graphic file (type png)
-
-<use Images/Mechanism_LateralView.png>
-Package pdftex.def Info: Images/Mechanism_LateralView.png used on input line 12
-4.
-(pdftex.def)             Requested size: 199.16928pt x 72.26143pt.
-
-Underfull \vbox (badness 5504) has occurred while \output is active []
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.113 ...hics[width=7cm]{Images/Mechanism_TopView}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
-<Images/Sub-Mechanism.png, id=38, 866.63776pt x 552.26324pt>
-File: Images/Sub-Mechanism.png Graphic file (type png)
+! LaTeX Error: File `Images/Mechanism_LateralView' not found.
 
-<use Images/Sub-Mechanism.png>
-Package pdftex.def Info: Images/Sub-Mechanism.png used on input line 136.
-(pdftex.def)             Requested size: 341.43306pt x 217.57277pt.
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.124 ...[width=7cm]{Images/Mechanism_LateralView}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+! LaTeX Error: File `Images/Sub-Mechanism' not found.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.136 ...raphics[width=12cm]{Images/Sub-Mechanism}
+                                                  
+I could not locate the file with any of these extensions:
+.png,.pdf,.jpg,.mps,.jpeg,.jbig2,.jb2,.PNG,.PDF,.JPG,.JPEG,.JBIG2,.JB2,.eps
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
@@ -1920,33 +1937,36 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [1{C:/Users/Stefano/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
- <./Images/Mechanism_TopView.png> <./Images/Mechanism_LateralView.png>]
-Underfull \hbox (badness 3260) in paragraph at lines 164--165
+]
+Underfull \hbox (badness 3260) in paragraph at lines 174--175
 []\OT1/lmr/m/n/10 ``\OT1/lmr/m/it/10 Advanced Ve-hi-cle Driv-ing Sim-u-la-tor\O
 T1/lmr/m/n/10 '',
  []
 
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 182.
+[2
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2 <./Images/Sub-Mechanism.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 172.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 172.
+]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 182.
  ("Relation 02.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 172.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 172.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 182.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 182.
 Package rerunfilecheck Info: File `"Relation 02".out' has not changed.
-(rerunfilecheck)             Checksum: 48DA5AF9B4EC85AF1428920AF39587EA;385.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 172.
+(rerunfilecheck)             Checksum: EA28A00E3548CA4502F316F0EF98C1BB;387.
+
+
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 182.
  ) 
 Here is how much of TeX's memory you used:
  33023 strings out of 493333
- 625811 string characters out of 3142231
- 868985 words of memory out of 3000000
- 35957 multiletter control sequences out of 15000+200000
+ 625460 string characters out of 3142231
+ 869985 words of memory out of 3000000
+ 35945 multiletter control sequences out of 15000+200000
  70539 words of font info for 66 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,9n,122p,10387b,829s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 59i,9n,122p,10387b,803s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/MyPrograms/MiKTeX/fonts/enc/dvips/lm/lm-rmsc.enc}{C:/MyPrograms/MiKTeX/fo
 nts/enc/dvips/lm/lm-rm.enc}{C:/MyPrograms/MiKTeX/fonts/enc/dvips/lm/lm-mathit.e
 nc}{C:/MyPrograms/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/MyPrograms/MiKTeX/fo
@@ -1956,9 +1976,9 @@ iKTeX/fonts/type1/public/lm/lmmi7.pfb><C:/MyPrograms/MiKTeX/fonts/type1/public/
 lm/lmr10.pfb><C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/MyProgra
 ms/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/MyPrograms/MiKTeX/fonts/type1/publ
 ic/lm/lmri10.pfb><C:/MyPrograms/MiKTeX/fonts/type1/public/lm/lmri12.pfb>
-Output written on "Relation 02.pdf" (2 pages, 294481 bytes).
+Output written on "Relation 02.pdf" (2 pages, 178860 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
+ 99 PDF objects out of 1000 (max. 8388607)
  15 named destinations out of 1000 (max. 500000)
- 76 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 61 words of extra memory for PDF output out of 10000 (max. 10000000)
 

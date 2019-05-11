@@ -91,7 +91,7 @@
 	\vspace{0.25cm}
 	\hrule
 	\vspace{0.2cm}
-	\large{\textbf{Kinematic analysis}}\\	% Title
+	\large{\textbf{Kinematics analysis}}\\	% Title
 	\vspace{0.2cm}
 	\hrule
 }
@@ -105,7 +105,7 @@
 
 The kinematic analysis...
 
-\section{Kinematic equations}
+\section{Kinematics equations}
 In this section the mechanism's behaviour is studied.
 In Figure \ref{f:Top-View} is shown the top view of the mechanism.
 \begin{figure}[h!]
@@ -117,8 +117,8 @@ In Figure \ref{f:Top-View} is shown the top view of the mechanism.
 
 In first approximation a 2D analysis is conduced, and is refered only to the bodies \circled{A} and \circled{B}.
 
-\subsection{2D-kinematic analysis}
-The mechanism studied in the 2D simplification is the merked part in Figure \ref{f:Top-View}, in fact only bodies \circled{A} and \circled{B} are taken into account, and the result is shown in Figure \ref{f:2D_Mechanism}.
+\subsection{2D-kinematics analysis}
+The mechanism studied in the 2D simplification is the marked part in Figure \ref{f:Top-View}, in fact only bodies \circled{A} and \circled{B} are taken into account, and the result is shown in Figure \ref{f:2D_Mechanism}.
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=7cm]{Images/Mechanism_LateralView}
@@ -126,11 +126,11 @@ The mechanism studied in the 2D simplification is the merked part in Figure \ref
 	\label{f:2D_Mechanism}
 \end{figure}
 
-For the 2D analysis it is choosen to consider the length of the platform as a constant, even if it could be variable, due to its geometry.
+For the 2D analysis it is chosen to consider the length of the platform as a constant, even if it could be variable, due to its geometry.
 More complex analysis are made in the following Section \ref{s:3D-kinematic} during the 3D analysis.
 
 Thanks to this consideration it is possible to say that the full-mechanism is composed by two mirrored sub-mechanisms, made by four sub-bodies, joined by the platform.
-So the sub-mechanism studied is shown in Figure \ref{f:Sub-Mechanism}.
+So the sub-mechanism studied during the 2D kinematic analysis is shown in Figure \ref{f:Sub-Mechanism}.
 \begin{figure*}[h!]
 	\centering
 	\includegraphics[width=12cm]{Images/Sub-Mechanism}
@@ -149,6 +149,16 @@ At a first sight, it is easy to say that the four motors will be the independant
 Although the simplicity of this consideration it has to be revisited in way to work together with the previous one: in fact consider the length of the platform (named \( L_5\)) constant, means that one of the motor has to become a dependant variable.
 
 In particular \( s_{A1x}(t) \) is considered the dependant variable.
+
+At the same time has to be defined a set of dependant variables.
+In particular for the description of the sub-mechanism's behaviour the following elements are chosen:
+\begin{itemize}
+  \item \( s_{A3x}(t) \) and \( s_{A3y}(t) \) which are the space coordinates of the body 3;
+  \item \( \theta_A(t) \) which is the angle of the body 2;
+  \item \( B_A(t) \) which is the distance of the body 3 from the upper-left edge of the body 4.
+\end{itemize}
+
+
 \subsection{3D-kinematic analysis}
 \label{s:3D-kinematic}
 
