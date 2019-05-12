@@ -148,14 +148,38 @@ At a first sight, it is easy to say that the four motors will be the independant
 \end{itemize}
 Although the simplicity of this consideration it has to be revisited in way to work together with the previous one: in fact consider the length of the platform (named \( L_5\)) constant, means that one of the motor has to become a dependant variable.
 
-In particular \( s_{A1x}(t) \) is considered the dependant variable.
+In particular \( s_{B1x}(t) \) is considered the dependant variable.
 \subsection{3D-kinematic analysis}
 \label{s:3D-kinematic}
 
 \section{Velocity analysis}
+Regarding the velocity analysis it was decided to operate in the following way.
+At first, after have obtained from the position analysis the following three objects:
+  \begin{itemize}
+    \item \( Phi_{tot}\): complete set of constraint equations;
+    \item \( qI_{tot}\): set of independent variables;
+    \item \( qD_{tot}\): set of dependent variables;
+  \end{itemize}
+three dependent variables (\(EE_{x}(t)\), \((EE_{y}(t)\),\((EE_{angle}(t)\)) were added to the set of dependent variables and clearly to set of constraint equations. The aim was to obtain directly the velocity ratios related to these variables, that are the X position, the Y position and the roll angle of the center of mass of the platform that was tought as the position of an eventual driving position.
+If that had not been done , we would obtain velocity ratios related  to other internal variables, such as the angles of the bars and the positions of the rolleys.
+At this point, in order to perform the Jacobians, we dropped the time dependency and after that, a function to restore the dependency w.r.t. the time was created, required to compute the derivation later.
+Furthermore the Jacobians w.r.t. the dependent and independent coordinates has been computed and thus the matrix of velocity ratios (\(tau\)) was calculated exploiting the Jacobians.
+Secondly it was developed the section for the plot of velocity ratios as a function of the independent variables, that are the position of the three actuators (because as already said, supposing a constant value of the length of the platform, one can be considered as \Virgolette{dummy}). In that section, not all the velocity ratios were plotted but only the ones related to the X and Y position of the end effector and to its roll angle because those one were the only one really significative for our analysis.
+Speaking about that section, a procedure for the plots called \textit{velocity\textunderscore plot} was made. More specifically the procedure takes as inputs:
+  \begin{itemize}
+    \item \( EE\textunderscore number \): chosen number between 1 and 3 that identifies the correct end effector variable (X, Y or angle);
+    \item \( actuator\textunderscore number\): desired actuator variable w.r.t whom we choose to plot the solution;
+    \item \(actuator\textunderscore extremes\): two elements vector that identifies the extreme postions of the desired actuator;
+    \item \(constant\textunderscore actuators\textunderscore values \): two values vector that identifies the values to be assigned by the two actuators that remain constant.
+  \end{itemize}
+and gives as outputs the trasmission ratios between X, Y position and angle of the end effector and the actuators as a function of one of the three independent DoF, assuming the other two as constants.
+As third main point it was decided to plot, besides the velocity ratios, also the pure velocities of the X, Y position of the end effector and its roll angle w.r.t. the position of one of the three DoF. In that case, as the requests specified, the velocity of the active actuator was fixed to one while the position of the other two actuators was mantained in the initial position.
+In order to develop this part, at first, it was calculated analitically the velocity of the dependent coordinates solving the derivative w.r.t. time of the equation of the complete set of constraints considering as unkonwns the derivative w.r.t. time of the complete set of dependent coordinates. Then, in the solution obtained, was substituted the chosen solution of the kinemtics found before.
 
 \section{Acceleration analysis}
-
+Regarding the acceleration analysis, this part was quite similar to the one made before. As a matter of fact, having the analitical solution of the kinematics, in order to obtain the expression of the acceleration of the dependent coordinates it was solved the double derivative w.r.t. time of the complete set of constraints considering as unkonwns the double derivative w.r.t. time of the complete set of dependent coordinates.
+After that, the chosen solution of the kinematics was substituted into the expression of the dependent acceleration in order to obtain them as dependent only to the independent variables.
+Moreover the acceleration of the X, Y coordinates and of the roll angle of the end effector was plotted w.r.t the position of each one of the three DoF (mantaining the other two fixed at each time). Furthermore, as the the requests specified, the velocity and the acceleration of the moving actuator, that was considered for each plot, were fixed to an unitaty value. 
 \section{Effects of the main geometrical parameters}
 
 

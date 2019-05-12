@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.8.20)  6 MAY 2019 17:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.8.20)  12 MAY 2019 19:31
 entering extended mode
 **"./Relation 02.tex"
 ("Relation 02.tex"
@@ -1785,32 +1785,73 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
  <./Images/Mechanism_TopView.png> <./Images/Mechanism_LateralView.png>]
-Underfull \hbox (badness 3260) in paragraph at lines 164--165
+Underfull \hbox (badness 10000) in paragraph at lines 163--170
+\OT1/lmr/m/n/10 three de-pen-dent vari-ables ($\OML/lmm/m/it/10 EE[]\OT1/lmr/m/
+n/10 (\OML/lmm/m/it/10 t\OT1/lmr/m/n/10 )$,
+ []
+
+
+Underfull \hbox (badness 6125) in paragraph at lines 163--170
+\OT1/lmr/m/n/10 (\OML/lmm/m/it/10 EE[]\OT1/lmr/m/n/10 (\OML/lmm/m/it/10 t\OT1/l
+mr/m/n/10 )$,$(\OML/lmm/m/it/10 EE[]\OT1/lmr/m/n/10 (\OML/lmm/m/it/10 t\OT1/lmr
+/m/n/10 )$) were added to the
+ []
+
+
+Underfull \hbox (badness 1406) in paragraph at lines 163--170
+\OT1/lmr/m/n/10 set of de-pen-dent vari-ables and clearly to
+ []
+
+
+Underfull \hbox (badness 2617) in paragraph at lines 163--170
+\OT1/lmr/m/n/10 later. Fur-ther-more the Ja-co-bians w.r.t.
+ []
+
+[2 <./Images/Sub-Mechanism.png>]
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 170.
+
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 171.
+
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 172.
+
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 173.
+
+
+LaTeX Warning: Command \textunderscore invalid in math mode on input line 173.
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 173--174
+[]$\OML/lmm/m/it/10 constant[]actuators[]values$\OT1/lmr/m/n/10 : two val-ues
+ []
+
+
+Underfull \hbox (badness 3260) in paragraph at lines 188--189
 []\OT1/lmr/m/n/10 ``\OT1/lmr/m/it/10 Advanced Ve-hi-cle Driv-ing Sim-u-la-tor\O
 T1/lmr/m/n/10 '',
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [2 <./Images/Sub-Mechanism.png>]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 172.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 172.
+[3]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 196.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 196.
  ("Relation 02.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 172.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 172.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 196.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 196.
 Package rerunfilecheck Info: File `"Relation 02".out' has not changed.
 (rerunfilecheck)             Checksum: 48DA5AF9B4EC85AF1428920AF39587EA;385.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 172.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 196.
  ) 
 Here is how much of TeX's memory you used:
- 34778 strings out of 492973
- 670293 string characters out of 3126692
- 914822 words of memory out of 3000000
- 38066 multiletter control sequences out of 15000+200000
+ 34780 strings out of 492973
+ 670317 string characters out of 3126692
+ 917822 words of memory out of 3000000
+ 38067 multiletter control sequences out of 15000+200000
  599237 words of font info for 76 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,9n,122p,420b,832s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 59i,9n,122p,536b,832s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/jlosi/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rmsc.
 enc}{C:/Users/jlosi/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rm.
 enc}{C:/Users/jlosi/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mat
@@ -1825,9 +1866,9 @@ onts/type1/public/lm/lmr12.pfb><C:/Users/jlosi/AppData/Local/Programs/MiKTeX 2.
 9/fonts/type1/public/lm/lmr7.pfb><C:/Users/jlosi/AppData/Local/Programs/MiKTeX 
 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/jlosi/AppData/Local/Programs/MiK
 TeX 2.9/fonts/type1/public/lm/lmri12.pfb>
-Output written on "Relation 02.pdf" (2 pages, 294041 bytes).
+Output written on "Relation 02.pdf" (3 pages, 305931 bytes).
 PDF statistics:
- 104 PDF objects out of 1000 (max. 8388607)
- 15 named destinations out of 1000 (max. 500000)
+ 108 PDF objects out of 1000 (max. 8388607)
+ 16 named destinations out of 1000 (max. 500000)
  76 words of extra memory for PDF output out of 10000 (max. 10000000)
 
