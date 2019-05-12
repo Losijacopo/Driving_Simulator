@@ -91,7 +91,7 @@
 	\vspace{0.25cm}
 	\hrule
 	\vspace{0.2cm}
-	\large{\textbf{Kinematic analysis}}\\	% Title
+	\large{\textbf{Kinematics analysis}}\\	% Title
 	\vspace{0.2cm}
 	\hrule
 }
@@ -105,7 +105,8 @@
 
 The kinematic analysis...
 
-\section{Kinematic equations}
+\section{Kinematics equations}
+\label{s:Equations}
 In this section the mechanism's behaviour is studied.
 In Figure \ref{f:Top-View} is shown the top view of the mechanism.
 \begin{figure}[h!]
@@ -117,8 +118,8 @@ In Figure \ref{f:Top-View} is shown the top view of the mechanism.
 
 In first approximation a 2D analysis is conduced, and is refered only to the bodies \circled{A} and \circled{B}.
 
-\subsection{2D-kinematic analysis}
-The mechanism studied in the 2D simplification is the merked part in Figure \ref{f:Top-View}, in fact only bodies \circled{A} and \circled{B} are taken into account, and the result is shown in Figure \ref{f:2D_Mechanism}.
+\subsection{2D-kinematics analysis}
+The mechanism studied in the 2D simplification is the marked part in Figure \ref{f:Top-View}, in fact only sub-mechanisms \circled{A} and \circled{B} are taken into account, and the result is shown in Figure \ref{f:2D_Mechanism}.
 \begin{figure}[h!]
 	\centering
 	\includegraphics[width=7cm]{Images/Mechanism_LateralView}
@@ -126,11 +127,11 @@ The mechanism studied in the 2D simplification is the merked part in Figure \ref
 	\label{f:2D_Mechanism}
 \end{figure}
 
-For the 2D analysis it is choosen to consider the length of the platform as a constant, even if it could be variable, due to its geometry.
+For the 2D analysis it is chosen to consider the length of the platform as a constant, even if it could be variable, due to its geometry.
 More complex analysis are made in the following Section \ref{s:3D-kinematic} during the 3D analysis.
 
 Thanks to this consideration it is possible to say that the full-mechanism is composed by two mirrored sub-mechanisms, made by four sub-bodies, joined by the platform.
-So the sub-mechanism studied is shown in Figure \ref{f:Sub-Mechanism}.
+So the sub-mechanism studied during the 2D kinematic analysis is shown in Figure \ref{f:Sub-Mechanism}.
 \begin{figure*}[h!]
 	\centering
 	\includegraphics[width=12cm]{Images/Sub-Mechanism}
@@ -149,7 +150,17 @@ At a first sight, it is easy to say that the four motors will be the independant
 Although the simplicity of this consideration it has to be revisited in way to work together with the previous one: in fact consider the length of the platform (named \( L_5\)) constant, means that one of the motor has to become a dependant variable.
 
 In particular \( s_{B1x}(t) \) is considered the dependant variable.
-\subsection{3D-kinematic analysis}
+
+At the same time has to be defined a set of dependant variables.
+In particular for the description of the sub-mechanism's behaviour the following elements are chosen:
+\begin{itemize}
+  \item \( s_{A3x}(t) \) and \( s_{A3y}(t) \) which are the space coordinates of the body 3;
+  \item \( \theta_A(t) \) which is the angle of the body 2;
+  \item \( B_A(t) \) which is the distance of the body 3 from the upper-left edge of the body 4.
+\end{itemize}
+
+
+\subsection{3D-kinematics analysis}
 \label{s:3D-kinematic}
 
 \section{Velocity analysis}
@@ -175,12 +186,61 @@ Speaking about that section, a procedure for the plots called \textit{velocity\t
 and gives as outputs the trasmission ratios between X, Y position and angle of the end effector and the actuators as a function of one of the three independent DoF, assuming the other two as constants.
 As third main point it was decided to plot, besides the velocity ratios, also the pure velocities of the X, Y position of the end effector and its roll angle w.r.t. the position of one of the three DoF. In that case, as the requests specified, the velocity of the active actuator was fixed to one while the position of the other two actuators was mantained in the initial position.
 In order to develop this part, at first, it was calculated analitically the velocity of the dependent coordinates solving the derivative w.r.t. time of the equation of the complete set of constraints considering as unkonwns the derivative w.r.t. time of the complete set of dependent coordinates. Then, in the solution obtained, was substituted the chosen solution of the kinemtics found before.
-
 \section{Acceleration analysis}
 Regarding the acceleration analysis, this part was quite similar to the one made before. As a matter of fact, having the analitical solution of the kinematics, in order to obtain the expression of the acceleration of the dependent coordinates it was solved the double derivative w.r.t. time of the complete set of constraints considering as unkonwns the double derivative w.r.t. time of the complete set of dependent coordinates.
 After that, the chosen solution of the kinematics was substituted into the expression of the dependent acceleration in order to obtain them as dependent only to the independent variables.
-Moreover the acceleration of the X, Y coordinates and of the roll angle of the end effector was plotted w.r.t the position of each one of the three DoF (mantaining the other two fixed at each time). Furthermore, as the the requests specified, the velocity and the acceleration of the moving actuator, that was considered for each plot, were fixed to an unitaty value. 
+Moreover the acceleration of the X, Y coordinates and of the roll angle of the end effector was plotted w.r.t the position of each one of the three DoF (mantaining the other two fixed at each time). Furthermore, as the the requests specified, the velocity and the acceleration of the moving actuator, that was considered for each plot, were fixed to an unitaty value.
 \section{Effects of the main geometrical parameters}
+By varying the position of the actuators it is possible to know which positions can be reached by the end effector, whose set is called \Virgolette{workspace}.
+This is one of the main parameters analyzed during the design and modelling of the mechanism: in particular it is required to optimize the workspace and to make it widen to the maximum.
+
+This procedure will lead to determine the geometrical values of the mechanism, which are, from Figure \ref{f:Sub-Mechanism}, \( L_1 \), \( H_1 \), \( L_2 \), \( H_2 \), \( L_4 \) and \( \alpha_4 \).
+
+\subsection{Extremes position problem}
+At first, workspace is defined by moving only one actuator, while others are mantained fixed.
+This step is repeated for all the three independant variables (\( s_{B1x}(t) \) is dependant, as explained in Section \ref{s:Equations}).
+
+The fixed position of the actuators are defined as follow:
+\begin{equation}
+  s_{A1x,0} = 0
+\end{equation}
+\begin{equation}
+  s_{A4x,0} = \sqrt{L_2^2-\frac{H_2+H_4-2H_1}{4}} - \frac{L_4}{2}
+\end{equation}
+and the symmetrical happens for the fixed position for the sub-mechanism \circled{B} (\( s_{A1x,0} = s_{B1x,0} \) and \( s_{A4x,0} = s_{B4x,0} \)).
+
+The first part of this process consists in the definition of the ranges in which the actuators can move whitout generation unassemblable configurations.
+The constraints are here summarized:
+
+\begin{equation}
+    s_{A1}x(t)+L_1 < s_{A4x}(t)+c_0
+\end{equation}
+\begin{equation}
+    H_4 < s_{A3y}(t)
+\end{equation}
+\begin{equation}
+   s_{A3y}(t) < H_2
+\end{equation}
+\begin{multline}
+    s_{A4x}(t) < s_{A1x}(t)+\\
+    +L_2*cos(arctan(\frac{H_2-H_1}{L_2}))
+\end{multline}
+\begin{equation}
+   s_{A4x}(t)+s_{B4x}(t)+2 L_4 < L_e-c_1
+\end{equation}
+The same is applied for sub-mechanism \circled{B}.
+Are also introduced two variables, useful for the optimization part, which are:
+\begin{itemize}
+  \item \( c_0 \): interpenetration between bodies 1 and 4;
+  \item \( c_1 \): minimum distance required between the two sub-mechanisms \circled{A} and \circled{B}.
+\end{itemize}
+
+For making this work in an automated way a Maple\textsuperscript{TM} function is written, \texttt{extremes(data,c0,c1)}, which returns a set containing all the space limits for the actuators.
+
+
+
+
+
 
 
 \begin{thebibliography}{}
