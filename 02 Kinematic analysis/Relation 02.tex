@@ -105,8 +105,8 @@
 
 The kinematic analysis...
 
-\section{Kinematics equations}
-\label{s:Equations}
+\section{Poisition analysis}
+\label{s:Position}
 In this section the mechanism's behaviour is studied.
 In Figure \ref{f:Top-View} is shown the top view of the mechanism.
 \begin{figure}[h!]
@@ -118,7 +118,8 @@ In Figure \ref{f:Top-View} is shown the top view of the mechanism.
 
 In first approximation a 2D analysis is conduced, and is refered only to the bodies \circled{A} and \circled{B}.
 
-\subsection{2D-kinematics analysis}
+\subsection{Direct position analysis}
+\label{s:Direct-position}
 The mechanism studied in the 2D simplification is the marked part in Figure \ref{f:Top-View}, in fact only sub-mechanisms \circled{A} and \circled{B} are taken into account, and the result is shown in Figure \ref{f:2D_Mechanism}.
 \begin{figure}[h!]
 	\centering
@@ -149,9 +150,9 @@ At a first sight, it is easy to say that the four motors will be the independant
 \end{itemize}
 Although the simplicity of this consideration it has to be revisited in way to work together with the previous one: in fact consider the length of the platform (named \( L_5\)) constant, means that one of the motor has to become a dependant variable.
 
-In particular \( s_{B1x}(t) \) is considered the dependant variable.
+In particular \( s_{B1x}(t) \) is considered the dependant variable, while the other three actuators consitute the independent variables set \( q_{I} \).
 
-At the same time has to be defined a set of dependant variables.
+At the same time it has to be defined a set of dependant variables \( q_{D} \).
 In particular for the description of the sub-mechanism's behaviour the following elements are chosen:
 \begin{itemize}
   \item \( s_{A3x}(t) \) and \( s_{A3y}(t) \) which are the space coordinates of the body 3;
@@ -159,9 +160,85 @@ In particular for the description of the sub-mechanism's behaviour the following
   \item \( B_A(t) \) which is the distance of the body 3 from the upper-left edge of the body 4.
 \end{itemize}
 
+To write the kinematics equations, the chosen approach involves a combination of the recursive and global approaches. The actuators' variables are computed starting from two auxiliary reference frames (RF), one located to the left and one to the right of the fixed RF, as shown in \colorbox{yellow}{FIGURA}.\\
+The mechanism is treated as the combination of two sub-systems \circled{A} and \circled{B}, each one them representing a closed loop from the kinematics point of view, solved using two recursive chains constrained at the inclined runner (body 3). Then, the last constraint equation is built up imposing that the platform links the two sub-systems.\\
+This approach is particularly powerful, considering the simple symbolic expression that results from the inverse analysis carried on in Section \ref{s:Inverse-position}.
 
-\subsection{3D-kinematics analysis}
-\label{s:3D-kinematic}
+Solving the system of 6 constraints equations in 9 variables leads to a symbolic expression of the 6 dependent variables \( q_{D} \) as function of the actuators. The expression of the pose of the center of mass of the platform, treated as end effector (E) of the system, is derived from \( q_{D} \) by exploiting simple geometic considerations.
+
+It's important to underline that the same procedure can be followed choosing \( s_{A1x}(t) \) instead of \( s_{B1x}(t) \) as powered off actuator, i.e. dependent variable. All the results showed in the next sections would be mirrored, due to the geometrical symmetry of the system.
+
+The results of this Section are essential for the computation of the admittable extremes for the actuators, done in \ref{s:Extreme-positions}, and for the definition of the workspaces of the 2D-system, carried out in Section \ref{s:Position-workspaces}.
+
+\subsection{Initial position problem}
+\label{s:Initial-position}
+The following is a simple criterion, based on geometrical considerations, for the determination of the initial values to be assigned to the actuators. The initial position is defined as follows:
+\begin{equation}
+  s_{A1x,0} = 0
+\end{equation}
+\begin{equation}
+  s_{A4x,0} = \sqrt{L_2^2-\frac{H_2+H_4-2H_1}{4}} - \frac{L_4}{2}
+\end{equation}
+and the symmetrical happens for the fixed position for the sub-mechanism \circled{B} (\( s_{A1x,0} = s_{B1x,0} \) and \( s_{A4x,0} = s_{B4x,0} \)).
+
+The complete formulation of the initial position involves also the definition of the distance \( L_e \) between left and right auxiliary RF and the fixed RF:
+\begin{multline}
+  L_e = 2*\sqrt{L2_^2-(frac{H_2-H_4}{2}-H1+H4)^2}+\\
+  + Q_3*\sin(\alpha_4)) + L_5
+\end{multline}
+that depends on the length of the platform \( L_5 \). Since the length of the platform, as it can be seen in Figure \ref{f:Top-View}, in general is variable from two values \cite{aVDS}, the initial position problem depends on it.
+
+\subsection{Extreme positions problem}
+\label{s:Extreme-positions}
+A crucial part of the analysis deals with the definition of an automated way to determine the maximum range of variability of one actuator, say actuator 4 of \circled{B}, given any values of the other two. In general one could exploit the velocity analysis and determining the points at which the velocity ratios goes to infinity. Unfortunately this method is not effective, since inside these extremes there are configurations that implies compenetration of bodies.
+
+Said so, a develpment of a consistent approach for the determination of the possible ranges of the actuators is considered necessary.
+
+
+
+
+
+The first part of this process consists in the definition of the ranges in which the actuators can move whitout generation unassemblable configurations.
+The constraints are here summarized:
+
+\begin{equation}
+    s_{A1}x(t)+L_1 < s_{A4x}(t)+c_0
+\end{equation}
+\begin{equation}
+    H_4 < s_{A3y}(t)
+\end{equation}
+\begin{equation}
+   s_{A3y}(t) < H_2
+\end{equation}
+\begin{multline}
+    s_{A4x}(t) < s_{A1x}(t)+\\
+    +L_2 \cdot cos(arctan(\frac{H_2-H_1}{L_2}))
+\end{multline}
+\begin{equation}
+   s_{A4x}(t)+s_{B4x}(t)+2 L_4 < L_e-c_1
+\end{equation}
+The same is applied for sub-mechanism \circled{B}.
+Are also introduced two variables, useful for the optimization part, which are:
+\begin{itemize}
+  \item \( c_0 \): interpenetration between bodies 1 and 4;
+  \item \( c_1 \): minimum distance required between the two sub-mechanisms \circled{A} and \circled{B}.
+\end{itemize}
+
+For making this work in an automated way a Maple\textsuperscript{TM} function is written, \texttt{extremes(data,c0,c1)}, which returns a set containing all the space limits for the actuators.
+
+\subsection{Position workspaces}
+\label{s:Position-workspaces}
+In this Section the three workspaces regarding the 2D-system are obtained. Before doing so, some important observations must be done.
+
+Firstly the
+
+
+
+At first, workspace is defined by moving only one actuator, while others are mantained fixed.
+This step is repeated for all the three independant variables (\( s_{B1x}(t) \) is dependant, as explained in Section \ref{s:Equations}).
+
+\subsection{Inverse position analysis}
+\label{s:Inverse-position}
 
 \section{Velocity analysis}
 Regarding the velocity analysis it was decided to operate in the following way.
@@ -198,46 +275,6 @@ This is one of the main parameters analyzed during the design and modelling of t
 
 This procedure will lead to determine the geometrical values of the mechanism, which are, from Figure \ref{f:Sub-Mechanism}, \( L_1 \), \( H_1 \), \( L_2 \), \( H_2 \), \( L_4 \) and \( \alpha_4 \).
 
-\subsection{Extremes position problem}
-At first, workspace is defined by moving only one actuator, while others are mantained fixed.
-This step is repeated for all the three independant variables (\( s_{B1x}(t) \) is dependant, as explained in Section \ref{s:Equations}).
-
-The fixed position of the actuators are defined as follow:
-\begin{equation}
-  s_{A1x,0} = 0
-\end{equation}
-\begin{equation}
-  s_{A4x,0} = \sqrt{L_2^2-\frac{H_2+H_4-2H_1}{4}} - \frac{L_4}{2}
-\end{equation}
-and the symmetrical happens for the fixed position for the sub-mechanism \circled{B} (\( s_{A1x,0} = s_{B1x,0} \) and \( s_{A4x,0} = s_{B4x,0} \)).
-
-The first part of this process consists in the definition of the ranges in which the actuators can move whitout generation unassemblable configurations.
-The constraints are here summarized:
-
-\begin{equation}
-    s_{A1}x(t)+L_1 < s_{A4x}(t)+c_0
-\end{equation}
-\begin{equation}
-    H_4 < s_{A3y}(t)
-\end{equation}
-\begin{equation}
-   s_{A3y}(t) < H_2
-\end{equation}
-\begin{multline}
-    s_{A4x}(t) < s_{A1x}(t)+\\
-    +L_2 \cdot cos(arctan(\frac{H_2-H_1}{L_2}))
-\end{multline}
-\begin{equation}
-   s_{A4x}(t)+s_{B4x}(t)+2 L_4 < L_e-c_1
-\end{equation}
-The same is applied for sub-mechanism \circled{B}.
-Are also introduced two variables, useful for the optimization part, which are:
-\begin{itemize}
-  \item \( c_0 \): interpenetration between bodies 1 and 4;
-  \item \( c_1 \): minimum distance required between the two sub-mechanisms \circled{A} and \circled{B}.
-\end{itemize}
-
-For making this work in an automated way a Maple\textsuperscript{TM} function is written, \texttt{extremes(data,c0,c1)}, which returns a set containing all the space limits for the actuators.
 
 
 
