@@ -183,7 +183,7 @@ and the symmetrical happens for the fixed position for the sub-mechanism \circle
 
 The complete formulation of the initial position involves also the definition of the distance \( L_e \) between left and right auxiliary RF and the fixed RF:
 \begin{multline}
-  L_e = 2*\sqrt{L2_^2-(frac{H_2-H_4}{2}-H1+H4)^2}+\\
+  L_e = 2*\sqrt{L_2^2-(\frac{H_2-H_4}{2}-H1+H4)^2}+\\
   + Q_3*\sin(\alpha_4)) + L_5
 \end{multline}
 that depends on the length of the platform \( L_5 \). Since the length of the platform, as it can be seen in Figure \ref{f:Top-View}, in general is variable from two values \cite{aVDS}, the initial position problem depends on it.
@@ -192,15 +192,15 @@ that depends on the length of the platform \( L_5 \). Since the length of the pl
 \label{s:Extreme-positions}
 A crucial part of the analysis deals with the definition of an automated way to determine the maximum range of variability of one actuator, say actuator 4 of \circled{B}, given any values of the other two. In general one could exploit the velocity analysis and determining the points at which the velocity ratios goes to infinity. Unfortunately this method is not effective, since inside these extremes there are configurations that implies compenetration of bodies.
 
-Said so, a develpment of a consistent approach for the determination of the possible ranges of the actuators is considered necessary.
+Said so, a develpment of a consistent approach for the determination of the possible ranges of the actuators is considered necessary.\\
+The developed criterion considers that:
+\begin{itemize}
+  \item the maximum and minimum position of the inclined runner through its seat is limited by limit switches positioned at an height of \( H_2 \) and \( H_4 \) respectively;
+  \item the body 1 of each sub-system should not interpenetrate the body 4;
+  \item the two bodies 4 of sub-systems \circled{A} and \circled{B}, i.e. the bodies below the platform, should not interpenetrate themselves.
+\end{itemize}
 
-
-
-
-
-The first part of this process consists in the definition of the ranges in which the actuators can move whitout generation unassemblable configurations.
 The constraints are here summarized:
-
 \begin{equation}
     s_{A1}x(t)+L_1 < s_{A4x}(t)+c_0
 \end{equation}
@@ -218,19 +218,19 @@ The constraints are here summarized:
    s_{A4x}(t)+s_{B4x}(t)+2 L_4 < L_e-c_1
 \end{equation}
 The same is applied for sub-mechanism \circled{B}.
-Are also introduced two variables, useful for the optimization part, which are:
+Two variables, useful for the optimization part, are also introduced:
 \begin{itemize}
-  \item \( c_0 \): interpenetration between bodies 1 and 4;
+  \item \( c_0 \): accepted interpenetration between bodies 1 and 4;
   \item \( c_1 \): minimum distance required between the two sub-mechanisms \circled{A} and \circled{B}.
 \end{itemize}
 
-For making this work in an automated way a Maple\textsuperscript{TM} function is written, \texttt{extremes(data,c0,c1)}, which returns a set containing all the space limits for the actuators.
+For making this work in an automated way a Maple\textsuperscript{TM} function is written, \texttt{extremes(actuator, other\_actuators, data\_in, c0, c1)}, which returns a set containing the two lower and upper limits for \texttt{actuator} given \texttt{other\_actuators} representing the values of the other two.
 
 \subsection{Position workspaces}
 \label{s:Position-workspaces}
 In this Section the three workspaces regarding the 2D-system are obtained. Before doing so, some important observations must be done.
 
-Firstly the
+FirsT
 
 
 
