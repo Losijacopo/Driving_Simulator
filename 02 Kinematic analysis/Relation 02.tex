@@ -239,7 +239,7 @@ The objective is to build the workspaces exploiting a solid method, that could b
 
 At first, \( x-y\) workspace is defined by moving only one actuator at time, while others are mantained fixed at their initial position. Its range of variability is defined by using \texttt{extremes} function described in \ref{s:Extreme-positions} and assigning the initial values.\\
 Finally, nesting this approach in three \texttt{for} loops results in a cloud of points. Unfortunately, this approach is not effective, because for each \( (i j k) \)-th case in the loop, the admittable ranges for the actuators are always the same (computed at the initial position), and are not modified according to the new configuration.\\
-This implies that the workspace is covering some points in which the geometrical constraints are violated. This can be easily proven using the solution of the inverse kinematics (see Section \ref{s:Inverse-position} evaluated at any point in the obtained workspace and observing that its representation shows a visible violation of such limits.
+This implies that the workspace is covering some points in which the geometrical constraints are violated. This can be easily proven using the solution of the inverse kinematics (see Section \ref{s:Inverse-position}) evaluated at any point near the boundary of the obtained workspace and observing that its representation shows a visible violation of such limits.
 \subsection{Inverse position analysis}
 \label{s:Inverse-position}
 
