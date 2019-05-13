@@ -422,12 +422,12 @@ INPUT .\Images\Mechanism_LateralView.png
 INPUT .\Images\Mechanism_LateralView.png
 INPUT .\Images\Mechanism_LateralView.png
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmbx10.tfm
+INPUT C:\Users\alber\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
 INPUT Images\Sub-Mechanism.png
 INPUT .\Images\Sub-Mechanism.png
 INPUT .\Images\Sub-Mechanism.png
 INPUT .\Images\Sub-Mechanism.png
 INPUT .\Images\Sub-Mechanism.png
-INPUT C:\Users\alber\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmri10.tfm
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmcsc10.tfm
 INPUT Relation 02.aux
