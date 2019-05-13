@@ -247,6 +247,17 @@ By doing so, an improved workspace has been obtained, true to the geometric cons
 
 \subsection{Inverse position analysis}
 \label{s:Inverse-position}
+The direct position problem has been carried on in Section \ref{s:Direct-position}. The inverse problem, i.e. obtaining the values of the actuators that realize the desired pose of the platform's center fo mass, is explained in this section.
+
+The original system of 6 constraints equations has been filled with the three equations describing the Sway, Heave and Roll of the platform. Then the actuators variables have been obtained, solving the system with the platform variables treated as independent.
+
+This symbolic expression has been used to derive the values of the actuators that realize some target motions. In particular, the target motion used as example is taken from the experimental data acquired in the first Paper \textit{"System requirements"}. At any time, the pose of the platform center of mass is described by:
+\begin{\begin{itemize}
+  \item Sway and Heave fixed at initial condition;
+  \item variable Roll, described by the motion of \colorbox{yellow}{REF FIGURA}.
+\end{itemize}
+
+Applying the inverse kinematics solution at each time instant, the three values of the actuators are derived, as shown in \colorbox{yellow}{REF FIGURA}.
 
 \section{Velocity analysis}
 Regarding the velocity analysis it was decided to operate in the following way.
