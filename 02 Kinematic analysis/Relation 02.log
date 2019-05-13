@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.8.20)  13 MAY 2019 23:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.8.20)  13 MAY 2019 23:33
 entering extended mode
 **"./Relation 02.tex"
 ("Relation 02.tex"
@@ -1830,32 +1830,19 @@ Underfull \hbox (badness 4229) in paragraph at lines 231--232
 tt/m/n/10 other[]actuators
  []
 
-Runaway argument?
-{\begin {itemize} \item workspace between Sway (\( x \)) and Heave (\(\ETC.
-Relation 02.tex:241: Paragraph ended before \begin was complete
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
-Runaway argument?
-{\begin {itemize} \item Sway and Heave fixed at initial condition; \item \ETC.
-Relation 02.tex:258: Paragraph ended before \begin was complete
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
-
 [4]
+Underfull \vbox (badness 1668) has occurred while \output is active []
+
+
+Underfull \vbox (badness 6961) has occurred while \output is active []
+
+ [5]
 Underfull \hbox (badness 3260) in paragraph at lines 312--313
 []\OT1/lmr/m/n/10 ``\OT1/lmr/m/it/10 Advanced Ve-hi-cle Driv-ing Sim-u-la-tor\O
 T1/lmr/m/n/10 '',
  []
 
-
-Underfull \vbox (badness 3250) has occurred while \output is active []
-
- [5]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 320.
-
 [6
 
 ]
@@ -1870,38 +1857,43 @@ Package rerunfilecheck Info: File `"Relation 02".out' has not changed.
 LaTeX Warning: There were undefined references.
 
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 320.
- ) 
+ )
+(\end occurred inside a group at level 1)
+
+### simple group (level 1) entered at line 236 ({)
+### bottom level 
 Here is how much of TeX's memory you used:
  34808 strings out of 492973
  670699 string characters out of 3126692
- 920822 words of memory out of 3000000
+ 918822 words of memory out of 3000000
  38078 multiletter control sequences out of 15000+200000
  602183 words of font info for 77 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 59i,9n,122p,548b,853s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Users/jlosi/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rmsc.
-enc}{C:/Users/jlosi/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mat
-hsy.enc}{C:/Users/jlosi/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm
--rm.enc}{C:/Users/jlosi/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm
--rmtt.enc}{C:/Users/jlosi/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/
-lm-mathex.enc}{C:/Users/jlosi/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips
-/lm/lm-mathit.enc}{C:/Users/jlosi/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/d
-vips/lm/lm-ts1.enc}<C:/Users/jlosi/AppData/Local/Programs/MiKTeX 2.9/fonts/type
-1/public/lm/lmbx10.pfb><C:/Users/jlosi/AppData/Local/Programs/MiKTeX 2.9/fonts/
-type1/public/lm/lmbx12.pfb><C:/Users/jlosi/AppData/Local/Programs/MiKTeX 2.9/fo
-nts/type1/public/lm/lmcsc10.pfb><C:/Users/jlosi/AppData/Local/Programs/MiKTeX 2
-.9/fonts/type1/public/lm/lmex10.pfb><C:/Users/jlosi/AppData/Local/Programs/MiKT
-eX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Users/jlosi/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb><C:/Users/jlosi/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/jlosi/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/jlosi/AppData/Local/
-Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Users/jlosi/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/jlosi/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Users/jlosi/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/jlosi/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Users/jlo
-si/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on "Relation 02.pdf" (6 pages, 387089 bytes).
+ 59i,9n,122p,548b,908s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Users/jlosi/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvi
+ps/lm/lm-rmsc.enc}{C:/Users/jlosi/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/d
+vips/lm/lm-mathsy.enc}{C:/Users/jlosi/AppData/Local/Programs/MiKTeX 2.9/fonts/e
+nc/dvips/lm/lm-rm.enc}{C:/Users/jlosi/AppData/Local/Programs/MiKTeX 2.9/fonts/e
+nc/dvips/lm/lm-rmtt.enc}{C:/Users/jlosi/AppData/Local/Programs/MiKTeX 2.9/fonts
+/enc/dvips/lm/lm-mathex.enc}{C:/Users/jlosi/AppData/Local/Programs/MiKTeX 2.9/f
+onts/enc/dvips/lm/lm-mathit.enc}{C:/Users/jlosi/AppData/Local/Programs/MiKTeX 2
+.9/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users/jlosi/AppData/Local/Programs/MiKTeX 
+2.9/fonts/type1/public/lm/lmbx10.pfb><C:/Users/jlosi/AppData/Local/Programs/MiK
+TeX 2.9/fonts/type1/public/lm/lmbx12.pfb><C:/Users/jlosi/AppData/Local/Programs
+/MiKTeX 2.9/fonts/type1/public/lm/lmcsc10.pfb><C:/Users/jlosi/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/lm/lmex10.pfb><C:/Users/jlosi/AppData/Local
+/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Users/jlosi/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb><C:/Users/jlosi/AppDat
+a/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/jlosi/App
+Data/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/jlosi/
+AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Users/jlos
+i/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/
+jlosi/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Us
+ers/jlosi/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C
+:/Users/jlosi/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb
+><C:/Users/jlosi/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10
+.pfb>
+Output written on "Relation 02.pdf" (6 pages, 387840 bytes).
 PDF statistics:
  175 PDF objects out of 1000 (max. 8388607)
  32 named destinations out of 1000 (max. 500000)
