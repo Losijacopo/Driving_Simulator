@@ -232,8 +232,8 @@ For making this work in an automated way a Maple\textsuperscript{TM} function is
 
 \subsection{Position workspaces}
 \label{s:Position-workspaces}
-Following the approach introduced inthe first Paper \textit{"System requirements"}, in this Section the three workspaces regarding the 2D-system are obtained. In particular, considering the 3 DoFs, they are:
-{\begin{itemize}
+Following the approach introduced in the first Paper \textit{"System requirements"}, in this Section the three workspaces regarding the 2D-system are obtained. In particular, considering the 3 DoFs, they are:
+\begin{itemize}
   \item workspace between Sway (\( x \)) and Heave (\( y \));
   \item workspace between Sway (\( x \)) and Roll (around \( z \));
   \item workspace between Heave (\( y \)) and Roll (around \( z \));
@@ -243,7 +243,12 @@ The objective is to build the workspaces exploiting a solid method, that could b
 
 At first, \( x-y\) workspace is defined by moving only one actuator at time, while others are mantained fixed at their initial position. Its range of variability is defined by using \texttt{extremes} function described in \ref{s:Extreme-positions} and assigning the initial values.\\
 Finally, nesting this approach in three \texttt{for} loops results in a cloud of points. Unfortunately, this approach is not effective, because for each \( (i j k) \)-th case in the loop, the admittable ranges for the actuators are always the same (computed at the initial position), and are not modified according to the new configuration.\\
-This implies that the workspace is covering some points in which the geometrical constraints are violated. This can be easily proven using the solution of the inverse kinematics (see Section \ref{s:Inverse-position}) evaluated at any point near the boundary of the obtained workspace and observing that its representation shows a visible violation of such limits.
+This implies that the workspace is covering some points in which the geometrical constraints are violated. This can be easily proven using the solution (see Section \ref{s:Inverse-position}) of the inverse kinematics evaluated at any point near the boundary of the obtained workspace and observing that its representation shows a visible violation of such limits.
+
+For this reason, an improved Maple\textsuperscript{TM} procedure has been developed. The main idea consists in continuously modifying the admittable range for the actuators on the base of the \( (i j k) \)-th iteration in the loop. This is realized forecasting, for each iteration cycle, the admittable ranges for each iteration. For example, the \( k \)'s admittable range is computed on the base of \( i \) and \( j \), and so on.
+
+By doing so, an improved workspace has been obtained, true to the geometric constraints in each point. In Figure \colorbox{yellow}{REF FIGURA} the two different approaches are compared, showing how the second gives a smaller area, where no compenetration of bodies is allowed.
+
 \subsection{Inverse position analysis}
 \label{s:Inverse-position}
 The direct position problem has been carried on in Section \ref{s:Direct-position}. The inverse problem, i.e. obtaining the values of the actuators that realize the desired pose of the platform's center fo mass, is explained in this section.
@@ -251,7 +256,7 @@ The direct position problem has been carried on in Section \ref{s:Direct-positio
 The original system of 6 constraints equations has been filled with the three equations describing the Sway, Heave and Roll of the platform. Then the actuators variables have been obtained, solving the system with the platform variables treated as independent.
 
 This symbolic expression has been used to derive the values of the actuators that realize some target motions. In particular, the target motion used as example is taken from the experimental data acquired in the first Paper \textit{"System requirements"}. At any time, the pose of the platform center of mass is described by:
-\begin{itemize}
+\begin{\begin{itemize}
   \item Sway and Heave fixed at initial condition;
   \item variable Roll, described by the motion of \colorbox{yellow}{REF FIGURA}.
 \end{itemize}
@@ -282,12 +287,8 @@ Regarding specifically the velocity ratios, it is useful to report the equations
     \dot{q_D'} = -\left[\frac{\partial \Phi }{\partial q_D}\right]^{-1} \cdot \left[\frac{\partial \Phi }{\partial q_I}\right] \cdot \dot{q_I}
   \end{equation}
 
-
-
-
 As third main point it was decided to plot, besides the velocity ratios, also the pure velocities of the \( x \), \( y \) position of the end effector and its roll angle w.r.t. the position of one of the three DoF. In that case, as the requests specified, the velocity of the active actuator was fixed to one while the position of the other two actuators was mantained in the initial position.
 In order to develop this part, at first, it was calculated analitically the velocity of the dependent coordinates solving the derivative w.r.t. time of the equation of the complete set of constraints considering as unkonwns the derivative w.r.t. time of the complete set of dependent coordinates. Then, in the solution obtained, was substituted the chosen solution of the kinemtics found before.
-
 \section{Acceleration analysis}
 This part was quite similar to the one made before.
 As a matter of fact, having the analitical solution of the kinematics, in order to obtain the expression of the acceleration of the dependent coordinates it was solved the double derivative w.r.t. time of the complete set of constraints considering as unkonwns the double derivative w.r.t. time of the complete set of dependent coordinates.
@@ -299,12 +300,6 @@ By varying the position of the actuators it is possible to know which positions 
 This is one of the main parameters analyzed during the design and modelling of the mechanism: in particular it is required to optimize the workspace and to make it widen to the maximum.
 
 This procedure will lead to determine the geometrical values of the mechanism, which are, from Figure \ref{f:Sub-Mechanism}, \( L_1 \), \( H_1 \), \( L_2 \), \( H_2 \), \( L_4 \) and \( \alpha_4 \).
-
-
-
-cacca
-
-
 
 
 \begin{thebibliography}{}
