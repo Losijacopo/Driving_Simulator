@@ -228,14 +228,16 @@ For making this work in an automated way a Maple\textsuperscript{TM} function is
 
 \subsection{Position workspaces}
 \label{s:Position-workspaces}
-In this Section the three workspaces regarding the 2D-system are obtained. Before doing so, some important observations must be done.
+Following the approach introduced inthe first Paper \textit{"System requirements"}, in this Section the three workspaces regarding the 2D-system are obtained. In particular, considering the 3 DoFs, they are:
+\begin{\begin{itemize}
+  \item workspace between Sway (\( x \)) and Heave (\( y \));
+  \item workspace between Sway (\( x \)) and Roll (around \( z \));
+  \item workspace between Heave (\( y \)) and Roll (around \( z \));
+\end{itemize}
 
-FirsT
+The objective is to build the workspaces exploiting a solid method, that could be useful in more advanced analysis, such as the one of \ref{s:Parameters}.
 
-
-
-At first, workspace is defined by moving only one actuator, while others are mantained fixed.
-This step is repeated for all the three independant variables (\( s_{B1x}(t) \) is dependant, as explained in Section \ref{s:Equations}).
+At first,\( x-y\) workspace is defined by moving only one actuator at time, while others are mantained fixed at their initial position. The range of variability is defined by using \texttt{extremes} function described in \ref{s:Extreme-positions} and assigning the initial values. Nesting this approach in three \texttt{for} loops results in a cloud of points. Unfortunately, this approach is not effective, because for each \( (i j k) \)-th case in the loop, the ranges for the actuators are always the same (computed at the initial position).
 
 \subsection{Inverse position analysis}
 \label{s:Inverse-position}
@@ -270,6 +272,7 @@ As a matter of fact, having the analitical solution of the kinematics, in order 
 After that, the chosen solution of the kinematics was substituted into the expression of the dependent acceleration in order to obtain them as dependent only to the independent variables.
 Moreover the acceleration of the \( x \), \( y \) coordinates and of the roll angle of the end effector was plotted w.r.t the position of each one of the three DoF (mantaining the other two fixed at each time). Furthermore, as the the requests specified, the velocity and the acceleration of the moving actuator, that was considered for each plot, were fixed to an unitaty value.
 \section{Effects of the main geometrical parameters}
+\label{s:Parameters}
 By varying the position of the actuators it is possible to know which positions can be reached by the end effector, whose set is called \Virgolette{workspace}.
 This is one of the main parameters analyzed during the design and modelling of the mechanism: in particular it is required to optimize the workspace and to make it widen to the maximum.
 
