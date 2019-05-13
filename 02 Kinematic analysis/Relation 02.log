@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.8.20)  13 MAY 2019 23:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6745 64-bit) (preloaded format=pdflatex 2018.8.20)  13 MAY 2019 23:49
 entering extended mode
 **"./Relation 02.tex"
 ("Relation 02.tex"
@@ -1834,38 +1834,48 @@ tt/m/n/10 other[]actuators
 Underfull \vbox (badness 1668) has occurred while \output is active []
 
 
-Underfull \vbox (badness 6961) has occurred while \output is active []
+Relation 02.tex:299: Undefined control sequence
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
- [5]
-Underfull \hbox (badness 3260) in paragraph at lines 312--313
+
+Overfull \hbox (23.14175pt too wide) detected at line 300
+[] [] \OMS/lmsy/m/n/10  [] \OT1/lmr/m/n/10 = \OMS/lmsy/m/n/10  [] []   [] []
+ []
+
+[5]
+Underfull \hbox (badness 3260) in paragraph at lines 317--318
 []\OT1/lmr/m/n/10 ``\OT1/lmr/m/it/10 Advanced Ve-hi-cle Driv-ing Sim-u-la-tor\O
 T1/lmr/m/n/10 '',
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 320.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 325.
 [6
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 320.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 325.
  ("Relation 02.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 320.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 320.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 325.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 325.
 Package rerunfilecheck Info: File `"Relation 02".out' has not changed.
 (rerunfilecheck)             Checksum: 432E83CF7069B832F5CBE806821DD92A;608.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 320.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 325.
  )
 (\end occurred inside a group at level 1)
 
 ### simple group (level 1) entered at line 236 ({)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 34808 strings out of 492973
- 670699 string characters out of 3126692
- 918822 words of memory out of 3000000
+ 34810 strings out of 492973
+ 670725 string characters out of 3126692
+ 919822 words of memory out of 3000000
  38078 multiletter control sequences out of 15000+200000
  602183 words of font info for 77 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1893,9 +1903,9 @@ ers/jlosi/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C
 :/Users/jlosi/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb
 ><C:/Users/jlosi/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10
 .pfb>
-Output written on "Relation 02.pdf" (6 pages, 387848 bytes).
+Output written on "Relation 02.pdf" (6 pages, 389127 bytes).
 PDF statistics:
- 175 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
+ 177 PDF objects out of 1000 (max. 8388607)
+ 34 named destinations out of 1000 (max. 500000)
  100 words of extra memory for PDF output out of 10000 (max. 10000000)
 

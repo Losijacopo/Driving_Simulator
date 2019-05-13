@@ -279,11 +279,12 @@ Regarding specifically the velocity ratios, it is useful to report the equations
   \end{equation}
 
   \begin{equation}
-    \dot{q_D'} = -\left[\frac{\partial \Phi }{\partial q_D}\right]^{-1} \cdot \left[\frac{\partial \Phi }{\partial q_I}\right] \cdot \dot{q_I}
+    \dot{q_D} = -\left[\frac{\partial \Phi }{\partial q_D}\right]^{-1} \cdot \left[\frac{\partial \Phi }{\partial q_I}\right] \cdot \dot{q_I}
   \end{equation}
 
-
-
+  \begin{equation}
+    \tau = - \left[\frac{\partial \Phi }{\partial q_D}\right]^{-1} \cdot \left[\frac{\partial \Phi }{\partial q_I}\right]
+  \end{equation}
 
 As third main point it was decided to plot, besides the velocity ratios, also the pure velocities of the \( x \), \( y \) position of the end effector and its roll angle w.r.t. the position of one of the three DoF. In that case, as the requests specified, the velocity of the active actuator was fixed to one while the position of the other two actuators was mantained in the initial position.
 In order to develop this part, at first, it was calculated analitically the velocity of the dependent coordinates solving the derivative w.r.t. time of the equation of the complete set of constraints considering as unkonwns the derivative w.r.t. time of the complete set of dependent coordinates. Then, in the solution obtained, was substituted the chosen solution of the kinemtics found before.
@@ -293,6 +294,10 @@ This part was quite similar to the one made before.
 As a matter of fact, having the analitical solution of the kinematics, in order to obtain the expression of the acceleration of the dependent coordinates it was solved the double derivative w.r.t. time of the complete set of constraints considering as unkonwns the double derivative w.r.t. time of the complete set of dependent coordinates.
 After that, the chosen solution of the kinematics was substituted into the expression of the dependent acceleration in order to obtain them as dependent only to the independent variables.
 Moreover the acceleration of the \( x \), \( y \) coordinates and of the roll angle of the end effector was plotted w.r.t the position of each one of the three DoF (mantaining the other two fixed at each time). Furthermore, as the the requests specified, the velocity and the acceleration of the moving actuator, that was considered for each plot, were fixed to an unitaty value.
+
+  \begin{equation}
+    \left[\frac{\partial \Phi }{\partial q_D}\right] \cdot \ddtot{q_D} = - \frac{d}{dt} \left(\left[\frac{\partial \Phi }{\partial q_I}\right] \cdot \dot{q_I} \right) - \frac{d}{dt} \left(\left[\frac{\partial \Phi }{\partial q_D}\right] \cdot \dot{q_D} \right)
+  \end{equation}
 \section{Effects of the main geometrical parameters}
 \label{s:Parameters}
 By varying the position of the actuators it is possible to know which positions can be reached by the end effector, whose set is called \Virgolette{workspace}.
