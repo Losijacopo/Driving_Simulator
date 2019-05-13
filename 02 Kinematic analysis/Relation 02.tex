@@ -232,8 +232,8 @@ For making this work in an automated way a Maple\textsuperscript{TM} function is
 
 \subsection{Position workspaces}
 \label{s:Position-workspaces}
-Following the approach introduced in the first Paper \textit{"System requirements"}, in this Section the three workspaces regarding the 2D-system are obtained. In particular, considering the 3 DoFs, they are:
-\begin{itemize}
+Following the approach introduced inthe first Paper \textit{"System requirements"}, in this Section the three workspaces regarding the 2D-system are obtained. In particular, considering the 3 DoFs, they are:
+\begin{\begin{itemize}
   \item workspace between Sway (\( x \)) and Heave (\( y \));
   \item workspace between Sway (\( x \)) and Roll (around \( z \));
   \item workspace between Heave (\( y \)) and Roll (around \( z \));
@@ -243,12 +243,7 @@ The objective is to build the workspaces exploiting a solid method, that could b
 
 At first, \( x-y\) workspace is defined by moving only one actuator at time, while others are mantained fixed at their initial position. Its range of variability is defined by using \texttt{extremes} function described in \ref{s:Extreme-positions} and assigning the initial values.\\
 Finally, nesting this approach in three \texttt{for} loops results in a cloud of points. Unfortunately, this approach is not effective, because for each \( (i j k) \)-th case in the loop, the admittable ranges for the actuators are always the same (computed at the initial position), and are not modified according to the new configuration.\\
-This implies that the workspace is covering some points in which the geometrical constraints are violated. This can be easily proven using the solution (see Section \ref{s:Inverse-position}) of the inverse kinematics evaluated at any point near the boundary of the obtained workspace and observing that its representation shows a visible violation of such limits.
-
-For this reason, an improved Maple\textsuperscript{TM} procedure has been developed. The main idea consists in continuously modifying the admittable range for the actuators on the base of the \( (i j k) \)-th iteration in the loop. This is realized forecasting, for each iteration cycle, the admittable ranges for each iteration. For example, the \( k \)'s admittable range is computed on the base of \( i \) and \( j \), and so on.
-
-By doing so, an improved workspace has been obtained, true to the geometric constraints in each point. In Figure \colorbox{yellow}{REF FIGURA} the two different approaches are compared, showing how the second gives a smaller area, where no compenetration of bodies is allowed.
-
+This implies that the workspace is covering some points in which the geometrical constraints are violated. This can be easily proven using the solution of the inverse kinematics (see Section \ref{s:Inverse-position}) evaluated at any point near the boundary of the obtained workspace and observing that its representation shows a visible violation of such limits.
 \subsection{Inverse position analysis}
 \label{s:Inverse-position}
 The direct position problem has been carried on in Section \ref{s:Direct-position}. The inverse problem, i.e. obtaining the values of the actuators that realize the desired pose of the platform's center fo mass, is explained in this section.
@@ -276,14 +271,20 @@ If that had not been done , we would obtain velocity ratios related  to other in
 At this point, in order to perform the Jacobians, we dropped the time dependency and after that, a function to restore the dependency w.r.t. the time was created, required to compute the derivation later.
 Furthermore the Jacobians w.r.t. the dependent and independent coordinates has been computed and thus the matrix of velocity ratios \([ \tau ]\) was calculated exploiting the Jacobians.
 Secondly it was developed the section for the plot of velocity ratios as a function of the independent variables, that are the position of the three actuators (because as already said, supposing a constant value of the length of the platform, one can be considered as \Virgolette{dummy}). In that section, not all the velocity ratios were plotted but only the ones related to the \( x \) and \( y \) position of the end effector and to its roll angle because those one were the only one really significative for our analysis.
-Speaking about that section, a procedure for the plots called \texttt{velocity\textunderscore plot} was made. More specifically the procedure takes as inputs:
-  \begin{itemize}
-    \item \texttt{EE\textunderscore number}: chosen number between 1 and 3 that identifies the correct end effector variable (\( x \), \( y \) or angle);
-    \item \texttt{actuator\textunderscore number}: desired actuator variable w.r.t whom it is chosen to plot the solution;
-    \item \texttt{actuator\textunderscore extremes}: two elements vector that identifies the extreme postions of the desired actuator;
-    \item \texttt{constant\textunderscore actuators\textunderscore values}: two values vector that identifies the values to be assigned by the two actuators that remain constant.
-  \end{itemize}
+Speaking about that section, a procedure for the plots called \texttt{velocity\textunderscore plot} was made.
 It gives as outputs the trasmission ratios between \( x \), \( y \) position and angle of the end effector and the actuators as a function of one of the three independent DoF, assuming the other two as constants.
+Regarding specifically the velocity ratios, it is useful to report the equations available in the \colorbox{yellow}{notes of the lecture} necessary to calculate the matrix of velocity ratios \([ \tau ]\) as it is shown below:
+  \begin{equation}
+    \left[\frac{\partial \Phi }{\partial q_I}\right] \cdot \dot{q_I} + \left[\frac{\partial \Phi }{\partial q_D}\right] \cdot \dot{q_D'} = 0
+  \end{equation}
+
+  \begin{equation}
+    \dot{q_D'} = -\left[\frac{\partial \Phi }{\partial q_D}\right]^{-1} \cdot \left[\frac{\partial \Phi }{\partial q_I}\right] \cdot \dot{q_I}
+  \end{equation}
+
+
+
+
 As third main point it was decided to plot, besides the velocity ratios, also the pure velocities of the \( x \), \( y \) position of the end effector and its roll angle w.r.t. the position of one of the three DoF. In that case, as the requests specified, the velocity of the active actuator was fixed to one while the position of the other two actuators was mantained in the initial position.
 In order to develop this part, at first, it was calculated analitically the velocity of the dependent coordinates solving the derivative w.r.t. time of the equation of the complete set of constraints considering as unkonwns the derivative w.r.t. time of the complete set of dependent coordinates. Then, in the solution obtained, was substituted the chosen solution of the kinemtics found before.
 
