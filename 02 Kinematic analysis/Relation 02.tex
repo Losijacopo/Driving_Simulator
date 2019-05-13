@@ -228,8 +228,8 @@ For making this work in an automated way a Maple\textsuperscript{TM} function is
 
 \subsection{Position workspaces}
 \label{s:Position-workspaces}
-Following the approach introduced inthe first Paper \textit{"System requirements"}, in this Section the three workspaces regarding the 2D-system are obtained. In particular, considering the 3 DoFs, they are:
-\begin{\begin{itemize}
+Following the approach introduced in the first Paper \textit{"System requirements"}, in this Section the three workspaces regarding the 2D-system are obtained. In particular, considering the 3 DoFs, they are:
+\begin{itemize}
   \item workspace between Sway (\( x \)) and Heave (\( y \));
   \item workspace between Sway (\( x \)) and Roll (around \( z \));
   \item workspace between Heave (\( y \)) and Roll (around \( z \));
@@ -239,7 +239,12 @@ The objective is to build the workspaces exploiting a solid method, that could b
 
 At first, \( x-y\) workspace is defined by moving only one actuator at time, while others are mantained fixed at their initial position. Its range of variability is defined by using \texttt{extremes} function described in \ref{s:Extreme-positions} and assigning the initial values.\\
 Finally, nesting this approach in three \texttt{for} loops results in a cloud of points. Unfortunately, this approach is not effective, because for each \( (i j k) \)-th case in the loop, the admittable ranges for the actuators are always the same (computed at the initial position), and are not modified according to the new configuration.\\
-This implies that the workspace is covering some points in which the geometrical constraints are violated. This can be easily proven using the solution of the inverse kinematics (see Section \ref{s:Inverse-position}) evaluated at any point near the boundary of the obtained workspace and observing that its representation shows a visible violation of such limits.
+This implies that the workspace is covering some points in which the geometrical constraints are violated. This can be easily proven using the solution (see Section \ref{s:Inverse-position}) of the inverse kinematics evaluated at any point near the boundary of the obtained workspace and observing that its representation shows a visible violation of such limits.
+
+For this reason, an improved Maple\textsuperscript{TM} procedure has been developed. The main idea consists in continuously modifying the admittable range for the actuators on the base of the \( (i j k) \)-th iteration in the loop. This is realized forecasting, for each iteration cycle, the admittable ranges for each iteration. For example, the \( k \)'s admittable range is computed on the base of \( i \) and \( j \), and so on.
+
+By doing so, an improved workspace has been obtained, true to the geometric constraints in each point. In Figure \colorbox{yellow}{REF FIGURA} the two different approaches are compared, showing how the second gives a smaller area, where no compenetration of bodies is allowed.
+
 \subsection{Inverse position analysis}
 \label{s:Inverse-position}
 
