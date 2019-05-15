@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.30)  13 MAY 2019 23:38
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (MiKTeX 2.9.6930 64-bit) (preloaded format=pdflatex 2019.3.30)  15 MAY 2019 12:47
 entering extended mode
 **"./Relation 02.tex"
 ("Relation 02.tex"
@@ -1654,155 +1654,443 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 104.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 104.
-<Images/Mechanism_TopView.png, id=43, 526.96875pt x 339.06676pt>
+<Images/Mechanism_TopView.png, id=47, 526.96875pt x 339.06676pt>
 File: Images/Mechanism_TopView.png Graphic file (type png)
 <use Images/Mechanism_TopView.png>
-Package pdftex.def Info: Images/Mechanism_TopView.png  used on input line 118.
+Package pdftex.def Info: Images/Mechanism_TopView.png  used on input line 121.
 (pdftex.def)             Requested size: 199.16928pt x 128.15341pt.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Images/Mechanism_LateralView.png, id=46, 684.75826pt x 229.45724pt>
-File: Images/Mechanism_LateralView.png Graphic file (type png)
-<use Images/Mechanism_LateralView.png>
-Package pdftex.def Info: Images/Mechanism_LateralView.png  used on input line 1
-30.
-(pdftex.def)             Requested size: 199.16928pt x 66.74045pt.
+<Images/Mechanism_LateralView_better.png, id=48, 1127.21124pt x 417.56pt>
+File: Images/Mechanism_LateralView_better.png Graphic file (type png)
+<use Images/Mechanism_LateralView_better.png>
+Package pdftex.def Info: Images/Mechanism_LateralView_better.png  used on input
+ line 129.
+(pdftex.def)             Requested size: 341.43306pt x 126.47952pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-
-LaTeX Warning: Reference `s:3D-kinematic' on page 1 undefined on input line 136
-.
 
 [1{C:/Users/alber/AppData/Local/MiKTeX/2.9/pdftex/config/pdftex.map}
 
 
  <./Images/Mechanism_TopView.png>]
-<Images/Sub-Mechanism.png, id=59, 866.63776pt x 552.26324pt>
+
+LaTeX Warning: Reference `f:2D-Mechanism' on page 2 undefined on input line 139
+.
+
+<Images/Sub-Mechanism.png, id=63, 866.63776pt x 552.26324pt>
 File: Images/Sub-Mechanism.png Graphic file (type png)
 <use Images/Sub-Mechanism.png>
 Package pdftex.def Info: Images/Sub-Mechanism.png  used on input line 142.
 (pdftex.def)             Requested size: 341.43306pt x 217.57277pt.
 
-
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[2 <./Images/Mechanism_LateralView.png>] [3 <./Images/Sub-Mechanism.png>]
-Underfull \hbox (badness 1117) in paragraph at lines 227--228
+[2 <./Images/Mechanism_LateralView_better.png>] [3 <./Images/Sub-Mechanism.png>
+]
+Underfull \hbox (badness 1117) in paragraph at lines 225--226
 []$\OML/lmm/m/it/10 c[]$\OT1/lmr/m/n/10 : ac-cepted in-ter-pen-e-tra-tion be-tw
 een
  []
 
 
-Underfull \hbox (badness 1043) in paragraph at lines 231--232
-[]\OT1/lmr/m/n/10 For mak-ing this work in an au-to-mated
+Underfull \hbox (badness 1668) in paragraph at lines 229--230
+[]\OT1/lmr/m/n/10 To per-form this task in an au-to-mated
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
 \OT1/lmr/m/n/10 way a Maple$[]$ func-tion is writ-ten,
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 231--232
+Underfull \hbox (badness 10000) in paragraph at lines 229--230
 \OT1/lmtt/m/n/10 extremes(actuator, other[]actuators,
  []
 
 
-Underfull \hbox (badness 6758) in paragraph at lines 231--232
+Underfull \hbox (badness 6758) in paragraph at lines 229--230
 \OT1/lmtt/m/n/10 data[]in, c0, c1)\OT1/lmr/m/n/10 , which re-turns a set
  []
 
 
-Underfull \hbox (badness 1577) in paragraph at lines 231--232
+Underfull \hbox (badness 1577) in paragraph at lines 229--230
 \OT1/lmr/m/n/10 con-tain-ing the two lower and up-per lim-
  []
 
 
-Underfull \hbox (badness 4229) in paragraph at lines 231--232
+Underfull \hbox (badness 4229) in paragraph at lines 229--230
 \OT1/lmr/m/n/10 its for \OT1/lmtt/m/n/10 actuator \OT1/lmr/m/n/10 given \OT1/lm
 tt/m/n/10 other[]actuators
  []
 
+<Images/CloudPoints_bad.png, id=96, 828.2142pt x 580.44855pt>
+File: Images/CloudPoints_bad.png Graphic file (type png)
+<use Images/CloudPoints_bad.png>
+Package pdftex.def Info: Images/CloudPoints_bad.png  used on input line 251.
+(pdftex.def)             Requested size: 213.39566pt x 149.55795pt.
+<Images/CloudPoints_tot.png, id=97, 828.2142pt x 580.44855pt>
+File: Images/CloudPoints_tot.png Graphic file (type png)
+<use Images/CloudPoints_tot.png>
+Package pdftex.def Info: Images/CloudPoints_tot.png  used on input line 252.
+(pdftex.def)             Requested size: 213.39566pt x 149.55795pt.
 
-Underfull \hbox (badness 4543) in paragraph at lines 250--251
-[]\OT1/lmr/m/n/10 By do-ing so, an im-proved workspace
+Overfull \hbox (12.11319pt too wide) in paragraph at lines 251--253
+[][]
  []
 
 
-Underfull \hbox (badness 2608) in paragraph at lines 250--251
-\OT1/lmr/m/n/10 has been ob-tained, true to the ge-o-met-
+Overfull \hbox (12.11319pt too wide) in paragraph at lines 251--253
+[] 
+ []
+
+<Images/ws_xy_bad.png, id=98, 828.2142pt x 580.44855pt>
+File: Images/ws_xy_bad.png Graphic file (type png)
+<use Images/ws_xy_bad.png>
+Package pdftex.def Info: Images/ws_xy_bad.png  used on input line 257.
+(pdftex.def)             Requested size: 213.39566pt x 149.55795pt.
+<Images/ws_xy_tot.png, id=99, 828.2142pt x 580.44855pt>
+File: Images/ws_xy_tot.png Graphic file (type png)
+<use Images/ws_xy_tot.png>
+Package pdftex.def Info: Images/ws_xy_tot.png  used on input line 258.
+(pdftex.def)             Requested size: 213.39566pt x 149.55795pt.
+
+Overfull \hbox (12.11319pt too wide) in paragraph at lines 257--259
+[][]
  []
 
 
-Underfull \hbox (badness 1248) in paragraph at lines 250--251
-\OT1/lmr/m/n/10 ric con-straints in each point. In Fig-ure
+Overfull \hbox (12.11319pt too wide) in paragraph at lines 257--259
+[] 
  []
 
-Runaway argument?
-{\begin {itemize} \item Sway and Heave fixed at initial condition; \item \ETC.
-Relation 02.tex:263: Paragraph ended before \begin was complete
-I suspect you've forgotten a `}', causing me to apply this
-control sequence to too much text. How can we recover?
-My plan is to forget the whole thing and hope for the best.
+[4]
 
-[4] [5]
-Underfull \hbox (badness 3260) in paragraph at lines 313--314
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[5 <./Images/CloudPoints_bad.png> <./Images/CloudPoints_tot.png> <./Images/ws_x
+y_bad.png> <./Images/ws_xy_tot.png>]
+<Images/RollDesired_InvKine.png, id=126, 828.2142pt x 580.44855pt>
+File: Images/RollDesired_InvKine.png Graphic file (type png)
+<use Images/RollDesired_InvKine.png>
+Package pdftex.def Info: Images/RollDesired_InvKine.png  used on input line 281
+.
+(pdftex.def)             Requested size: 213.39566pt x 149.55795pt.
+<Images/Actuators_InvKine.png, id=127, 828.2142pt x 580.44855pt>
+File: Images/Actuators_InvKine.png Graphic file (type png)
+<use Images/Actuators_InvKine.png>
+Package pdftex.def Info: Images/Actuators_InvKine.png  used on input line 282.
+(pdftex.def)             Requested size: 213.39566pt x 149.55795pt.
+
+Overfull \hbox (12.11319pt too wide) in paragraph at lines 281--283
+[][] 
+ []
+
+
+Overfull \hbox (12.11319pt too wide) in paragraph at lines 281--283
+[] 
+ []
+
+[6 <./Images/RollDesired_InvKine.png> <./Images/Actuators_InvKine.png>]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(48.36958pt, 500.7687pt, 48.36958pt)
+* v-part:(T,H,B)=(76.82234pt, 691.40216pt, 76.82234pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=500.7687pt
+* \textheight=691.40216pt
+* \oddsidemargin=-23.9004pt
+* \evensidemargin=-23.9004pt
+* \topmargin=-32.44765pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumntrue
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+<Images/EE_vel_A1.png, id=146, 828.2142pt x 580.44855pt>
+File: Images/EE_vel_A1.png Graphic file (type png)
+<use Images/EE_vel_A1.png>
+Package pdftex.def Info: Images/EE_vel_A1.png  used on input line 322.
+(pdftex.def)             Requested size: 213.39566pt x 149.55795pt.
+<Images/EE_vel_A4.png, id=147, 828.2142pt x 580.44855pt>
+File: Images/EE_vel_A4.png Graphic file (type png)
+<use Images/EE_vel_A4.png>
+Package pdftex.def Info: Images/EE_vel_A4.png  used on input line 325.
+(pdftex.def)             Requested size: 213.39566pt x 149.55795pt.
+<Images/EE_vel_B4.png, id=148, 828.2142pt x 580.44855pt>
+File: Images/EE_vel_B4.png Graphic file (type png)
+<use Images/EE_vel_B4.png>
+Package pdftex.def Info: Images/EE_vel_B4.png  used on input line 328.
+(pdftex.def)             Requested size: 213.39566pt x 149.55795pt.
+<Images/Ratio_x.png, id=149, 828.2142pt x 580.44855pt>
+File: Images/Ratio_x.png Graphic file (type png)
+<use Images/Ratio_x.png>
+Package pdftex.def Info: Images/Ratio_x.png  used on input line 337.
+(pdftex.def)             Requested size: 213.39566pt x 149.55795pt.
+<Images/Ratio_y.png, id=150, 828.2142pt x 580.44855pt>
+File: Images/Ratio_y.png Graphic file (type png)
+<use Images/Ratio_y.png>
+Package pdftex.def Info: Images/Ratio_y.png  used on input line 340.
+(pdftex.def)             Requested size: 213.39566pt x 149.55795pt.
+<Images/Ratio_angle.png, id=151, 828.2142pt x 580.44855pt>
+File: Images/Ratio_angle.png Graphic file (type png)
+<use Images/Ratio_angle.png>
+Package pdftex.def Info: Images/Ratio_angle.png  used on input line 343.
+(pdftex.def)             Requested size: 213.39566pt x 149.55795pt.
+
+[7 <./Images/EE_vel_A1.png> <./Images/EE_vel_A4.png> <./Images/EE_vel_B4.png> <
+./Images/Ratio_x.png> <./Images/Ratio_y.png> <./Images/Ratio_angle.png>]
+<Images/EE_acc_A1.png, id=164, 828.2142pt x 580.44855pt>
+File: Images/EE_acc_A1.png Graphic file (type png)
+<use Images/EE_acc_A1.png>
+Package pdftex.def Info: Images/EE_acc_A1.png  used on input line 385.
+(pdftex.def)             Requested size: 213.39566pt x 149.55795pt.
+<Images/EE_acc_A4.png, id=165, 828.2142pt x 580.44855pt>
+File: Images/EE_acc_A4.png Graphic file (type png)
+<use Images/EE_acc_A4.png>
+Package pdftex.def Info: Images/EE_acc_A4.png  used on input line 386.
+(pdftex.def)             Requested size: 213.39566pt x 149.55795pt.
+<Images/EE_acc_B4.png, id=166, 828.2142pt x 580.44855pt>
+File: Images/EE_acc_B4.png Graphic file (type png)
+<use Images/EE_acc_B4.png>
+Package pdftex.def Info: Images/EE_acc_B4.png  used on input line 387.
+(pdftex.def)             Requested size: 213.39566pt x 149.55795pt.
+
+Overfull \hbox (12.11319pt too wide) in paragraph at lines 385--388
+[][]
+ []
+
+
+Overfull \hbox (12.11319pt too wide) in paragraph at lines 385--388
+[]
+ []
+
+
+Overfull \hbox (12.11319pt too wide) in paragraph at lines 385--388
+[] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8
+
+
+
+ <./Images/EE_acc_A1.png> <./Images/EE_acc_A4.png> <./Images/EE_acc_B4.png>]
+Overfull \hbox (0.92438pt too wide) in paragraph at lines 421--421
+ []|$\OML/lmm/m/it/10 []$| 
+ []
+
+
+Overfull \hbox (2.83986pt too wide) in paragraph at lines 423--423
+ []|$\OML/lmm/m/it/10 H[]$| 
+ []
+
+
+Overfull \hbox (2.83986pt too wide) in paragraph at lines 425--425
+ []|$\OML/lmm/m/it/10 H[]$| 
+ []
+
+
+Overfull \hbox (1.33293pt too wide) in paragraph at lines 427--427
+ []|$\OML/lmm/m/it/10 L[]$| 
+ []
+
+
+Overfull \hbox (1.33293pt too wide) in paragraph at lines 429--429
+ []|$\OML/lmm/m/it/10 L[]$| 
+ []
+
+[9]
+Overfull \hbox (2.13696pt too wide) in paragraph at lines 470--470
+ []|$\OML/lmm/m/it/10 i[]$| 
+ []
+
+
+Overfull \hbox (1.90898pt too wide) in paragraph at lines 470--470
+ []|$\OML/lmm/m/it/10 i[]$| 
+ []
+
+
+Overfull \hbox (7.00282pt too wide) in paragraph at lines 470--471
+ []|$\OML/lmm/m/it/10 i[]$| 
+ []
+
+[10]
+*geometry* verbose mode - [ newgeometry ] result:
+* driver: pdftex
+* paper: a4paper
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(48.36958pt, 500.7687pt, 48.36958pt)
+* v-part:(T,H,B)=(76.82234pt, 691.40216pt, 76.82234pt)
+* \paperwidth=597.50787pt
+* \paperheight=845.04684pt
+* \textwidth=500.7687pt
+* \textheight=691.40216pt
+* \oddsidemargin=-23.9004pt
+* \evensidemargin=-23.9004pt
+* \topmargin=-32.44765pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=4.0pt
+* \marginparsep=10.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumntrue
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+<Images/ws_a4_xa.png, id=209, 828.2142pt x 580.44855pt>
+File: Images/ws_a4_xa.png Graphic file (type png)
+<use Images/ws_a4_xa.png>
+Package pdftex.def Info: Images/ws_a4_xa.png  used on input line 506.
+(pdftex.def)             Requested size: 213.39566pt x 149.55795pt.
+<Images/ws_a4_xy.png, id=210, 828.2142pt x 580.44855pt>
+File: Images/ws_a4_xy.png Graphic file (type png)
+<use Images/ws_a4_xy.png>
+Package pdftex.def Info: Images/ws_a4_xy.png  used on input line 509.
+(pdftex.def)             Requested size: 213.39566pt x 149.55795pt.
+<Images/ws_a4_ya.png, id=211, 828.2142pt x 580.44855pt>
+File: Images/ws_a4_ya.png Graphic file (type png)
+<use Images/ws_a4_ya.png>
+Package pdftex.def Info: Images/ws_a4_ya.png  used on input line 512.
+(pdftex.def)             Requested size: 213.39566pt x 149.55795pt.
+<Images/ws_h2_xa.png, id=212, 828.2142pt x 580.44855pt>
+File: Images/ws_h2_xa.png Graphic file (type png)
+<use Images/ws_h2_xa.png>
+Package pdftex.def Info: Images/ws_h2_xa.png  used on input line 521.
+(pdftex.def)             Requested size: 213.39566pt x 149.55795pt.
+<Images/ws_h2_xy.png, id=213, 828.2142pt x 580.44855pt>
+File: Images/ws_h2_xy.png Graphic file (type png)
+<use Images/ws_h2_xy.png>
+Package pdftex.def Info: Images/ws_h2_xy.png  used on input line 524.
+(pdftex.def)             Requested size: 213.39566pt x 149.55795pt.
+<Images/ws_h2_ya.png, id=214, 828.2142pt x 580.44855pt>
+File: Images/ws_h2_ya.png Graphic file (type png)
+<use Images/ws_h2_ya.png>
+Package pdftex.def Info: Images/ws_h2_ya.png  used on input line 527.
+(pdftex.def)             Requested size: 213.39566pt x 149.55795pt.
+<Images/ws_l2_xa.png, id=215, 828.2142pt x 580.44855pt>
+File: Images/ws_l2_xa.png Graphic file (type png)
+<use Images/ws_l2_xa.png>
+Package pdftex.def Info: Images/ws_l2_xa.png  used on input line 536.
+(pdftex.def)             Requested size: 213.39566pt x 149.55795pt.
+<Images/ws_l2_xy.png, id=216, 828.2142pt x 580.44855pt>
+File: Images/ws_l2_xy.png Graphic file (type png)
+<use Images/ws_l2_xy.png>
+Package pdftex.def Info: Images/ws_l2_xy.png  used on input line 539.
+(pdftex.def)             Requested size: 213.39566pt x 149.55795pt.
+<Images/ws_l2_ya.png, id=217, 828.2142pt x 580.44855pt>
+File: Images/ws_l2_ya.png Graphic file (type png)
+<use Images/ws_l2_ya.png>
+Package pdftex.def Info: Images/ws_l2_ya.png  used on input line 542.
+(pdftex.def)             Requested size: 213.39566pt x 149.55795pt.
+<Images/ws_l4_xa.png, id=218, 828.2142pt x 580.44855pt>
+File: Images/ws_l4_xa.png Graphic file (type png)
+<use Images/ws_l4_xa.png>
+Package pdftex.def Info: Images/ws_l4_xa.png  used on input line 551.
+(pdftex.def)             Requested size: 213.39566pt x 149.55795pt.
+<Images/ws_l4_xy.png, id=219, 828.2142pt x 580.44855pt>
+File: Images/ws_l4_xy.png Graphic file (type png)
+<use Images/ws_l4_xy.png>
+Package pdftex.def Info: Images/ws_l4_xy.png  used on input line 554.
+(pdftex.def)             Requested size: 213.39566pt x 149.55795pt.
+<Images/ws_l4_ya.png, id=220, 828.2142pt x 580.44855pt>
+File: Images/ws_l4_ya.png Graphic file (type png)
+<use Images/ws_l4_ya.png>
+Package pdftex.def Info: Images/ws_l4_ya.png  used on input line 557.
+(pdftex.def)             Requested size: 213.39566pt x 149.55795pt.
+ [11 <./Images/ws_a4_xa.png> <./Images/ws_a4_xy.png> <./Images/ws_a4_ya.png> <.
+/Images/ws_h2_xa.png> <./Images/ws_h2_xy.png> <./Images/ws_h2_ya.png>]
+[12 <./Images/ws_l2_xa.png> <./Images/ws_l2_xy.png> <./Images/ws_l2_ya.png> <./
+Images/ws_l4_xa.png> <./Images/ws_l4_xy.png> <./Images/ws_l4_ya.png>]
+Underfull \hbox (badness 3260) in paragraph at lines 574--575
 []\OT1/lmr/m/n/10 ``\OT1/lmr/m/it/10 Advanced Ve-hi-cle Driv-ing Sim-u-la-tor\O
 T1/lmr/m/n/10 '',
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 321.
-[6
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 582.
+[13
+
+
+
 
 ]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 321.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 582.
  ("Relation 02.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 321.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 321.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 582.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 582.
 Package rerunfilecheck Info: File `"Relation 02".out' has not changed.
-(rerunfilecheck)             Checksum: 432E83CF7069B832F5CBE806821DD92A;608.
+(rerunfilecheck)             Checksum: 4CB0E982D15666E5245B3D670793DFF2;654.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 321.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 582.
  ) 
 Here is how much of TeX's memory you used:
- 35560 strings out of 492946
- 686621 string characters out of 3126266
- 1956589 words of memory out of 3000000
- 38845 multiletter control sequences out of 15000+200000
+ 35741 strings out of 492946
+ 690316 string characters out of 3126266
+ 1959589 words of memory out of 3000000
+ 38971 multiletter control sequences out of 15000+200000
  602183 words of font info for 77 fonts, out of 3000000 for 9000
  1141 hyphenation exceptions out of 8191
- 70i,9n,147p,548b,808s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 70i,13n,147p,545b,755s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Users/alber/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-rmsc.
 enc}{C:/Users/alber/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm-mat
-hsy.enc}{C:/Users/alber/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm
--rm.enc}{C:/Users/alber/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm
--rmtt.enc}{C:/Users/alber/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/
-lm-mathex.enc}{C:/Users/alber/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips
-/lm/lm-mathit.enc}{C:/Users/alber/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/d
+hit.enc}{C:/Users/alber/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/lm/lm
+-mathsy.enc}{C:/Users/alber/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/l
+m/lm-rm.enc}{C:/Users/alber/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips/l
+m/lm-rmtt.enc}{C:/Users/alber/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/dvips
+/lm/lm-mathex.enc}{C:/Users/alber/AppData/Local/Programs/MiKTeX 2.9/fonts/enc/d
 vips/lm/lm-ts1.enc}<C:/Users/alber/AppData/Local/Programs/MiKTeX 2.9/fonts/type
 1/public/lm/lmbx10.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX 2.9/fonts/
 type1/public/lm/lmbx12.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX 2.9/fo
 nts/type1/public/lm/lmcsc10.pfb><C:/Users/alber/AppData/Local/Programs/MiKTeX 2
 .9/fonts/type1/public/lm/lmex10.pfb><C:/Users/alber/AppData/Local/Programs/MiKT
 eX 2.9/fonts/type1/public/lm/lmmi10.pfb><C:/Users/alber/AppData/Local/Programs/
-MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb><C:/Users/alber/AppData/Local/Progra
-ms/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/alber/AppData/Local/Pro
-grams/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/alber/AppData/Local/
-Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Users/alber/AppData/Loca
-l/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/alber/AppData/
-Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Users/alber/AppD
-ata/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/alber/
-AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Users/alb
-er/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
-Output written on "Relation 02.pdf" (6 pages, 387373 bytes).
+MiKTeX 2.9/fonts/type1/public/lm/lmmi5.pfb><C:/Users/alber/AppData/Local/Progra
+ms/MiKTeX 2.9/fonts/type1/public/lm/lmmi7.pfb><C:/Users/alber/AppData/Local/Pro
+grams/MiKTeX 2.9/fonts/type1/public/lm/lmr10.pfb><C:/Users/alber/AppData/Local/
+Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr12.pfb><C:/Users/alber/AppData/Loc
+al/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmr7.pfb><C:/Users/alber/AppData/L
+ocal/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri10.pfb><C:/Users/alber/AppDa
+ta/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmri12.pfb><C:/Users/alber/A
+ppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy10.pfb><C:/Users/alb
+er/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmsy7.pfb><C:/Users/
+alber/AppData/Local/Programs/MiKTeX 2.9/fonts/type1/public/lm/lmtt10.pfb>
+Output written on "Relation 02.pdf" (13 pages, 5611917 bytes).
 PDF statistics:
- 175 PDF objects out of 1000 (max. 8388607)
- 32 named destinations out of 1000 (max. 500000)
- 100 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 318 PDF objects out of 1000 (max. 8388607)
+ 60 named destinations out of 1000 (max. 500000)
+ 243 words of extra memory for PDF output out of 10000 (max. 10000000)
 

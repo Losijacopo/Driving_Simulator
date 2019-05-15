@@ -416,29 +416,164 @@ INPUT .\Images\Mechanism_TopView.png
 INPUT .\Images\Mechanism_TopView.png
 INPUT .\Images\Mechanism_TopView.png
 INPUT .\Images\Mechanism_TopView.png
-INPUT Images\Mechanism_LateralView.png
-INPUT .\Images\Mechanism_LateralView.png
-INPUT .\Images\Mechanism_LateralView.png
-INPUT .\Images\Mechanism_LateralView.png
-INPUT .\Images\Mechanism_LateralView.png
-INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmbx10.tfm
+INPUT Images\Mechanism_LateralView_better.png
+INPUT .\Images\Mechanism_LateralView_better.png
+INPUT .\Images\Mechanism_LateralView_better.png
+INPUT .\Images\Mechanism_LateralView_better.png
+INPUT .\Images\Mechanism_LateralView_better.png
 INPUT C:\Users\alber\AppData\Local\MiKTeX\2.9\pdftex\config\pdftex.map
+INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmbx10.tfm
 INPUT Images\Sub-Mechanism.png
 INPUT .\Images\Sub-Mechanism.png
 INPUT .\Images\Sub-Mechanism.png
 INPUT .\Images\Sub-Mechanism.png
 INPUT .\Images\Sub-Mechanism.png
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmri10.tfm
+INPUT Images\CloudPoints_bad.png
+INPUT .\Images\CloudPoints_bad.png
+INPUT .\Images\CloudPoints_bad.png
+INPUT .\Images\CloudPoints_bad.png
+INPUT .\Images\CloudPoints_bad.png
+INPUT Images\CloudPoints_tot.png
+INPUT .\Images\CloudPoints_tot.png
+INPUT .\Images\CloudPoints_tot.png
+INPUT .\Images\CloudPoints_tot.png
+INPUT .\Images\CloudPoints_tot.png
+INPUT Images\ws_xy_bad.png
+INPUT .\Images\ws_xy_bad.png
+INPUT .\Images\ws_xy_bad.png
+INPUT .\Images\ws_xy_bad.png
+INPUT .\Images\ws_xy_bad.png
+INPUT Images\ws_xy_tot.png
+INPUT .\Images\ws_xy_tot.png
+INPUT .\Images\ws_xy_tot.png
+INPUT .\Images\ws_xy_tot.png
+INPUT .\Images\ws_xy_tot.png
+INPUT Images\RollDesired_InvKine.png
+INPUT .\Images\RollDesired_InvKine.png
+INPUT .\Images\RollDesired_InvKine.png
+INPUT .\Images\RollDesired_InvKine.png
+INPUT .\Images\RollDesired_InvKine.png
+INPUT Images\Actuators_InvKine.png
+INPUT .\Images\Actuators_InvKine.png
+INPUT .\Images\Actuators_InvKine.png
+INPUT .\Images\Actuators_InvKine.png
+INPUT .\Images\Actuators_InvKine.png
+INPUT Images\EE_vel_A1.png
+INPUT .\Images\EE_vel_A1.png
+INPUT .\Images\EE_vel_A1.png
+INPUT .\Images\EE_vel_A1.png
+INPUT .\Images\EE_vel_A1.png
+INPUT Images\EE_vel_A4.png
+INPUT .\Images\EE_vel_A4.png
+INPUT .\Images\EE_vel_A4.png
+INPUT .\Images\EE_vel_A4.png
+INPUT .\Images\EE_vel_A4.png
+INPUT Images\EE_vel_B4.png
+INPUT .\Images\EE_vel_B4.png
+INPUT .\Images\EE_vel_B4.png
+INPUT .\Images\EE_vel_B4.png
+INPUT .\Images\EE_vel_B4.png
+INPUT Images\Ratio_x.png
+INPUT .\Images\Ratio_x.png
+INPUT .\Images\Ratio_x.png
+INPUT .\Images\Ratio_x.png
+INPUT .\Images\Ratio_x.png
+INPUT Images\Ratio_y.png
+INPUT .\Images\Ratio_y.png
+INPUT .\Images\Ratio_y.png
+INPUT .\Images\Ratio_y.png
+INPUT .\Images\Ratio_y.png
+INPUT Images\Ratio_angle.png
+INPUT .\Images\Ratio_angle.png
+INPUT .\Images\Ratio_angle.png
+INPUT .\Images\Ratio_angle.png
+INPUT .\Images\Ratio_angle.png
+INPUT Images\EE_acc_A1.png
+INPUT .\Images\EE_acc_A1.png
+INPUT .\Images\EE_acc_A1.png
+INPUT .\Images\EE_acc_A1.png
+INPUT .\Images\EE_acc_A1.png
+INPUT Images\EE_acc_A4.png
+INPUT .\Images\EE_acc_A4.png
+INPUT .\Images\EE_acc_A4.png
+INPUT .\Images\EE_acc_A4.png
+INPUT .\Images\EE_acc_A4.png
+INPUT Images\EE_acc_B4.png
+INPUT .\Images\EE_acc_B4.png
+INPUT .\Images\EE_acc_B4.png
+INPUT .\Images\EE_acc_B4.png
+INPUT .\Images\EE_acc_B4.png
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX 2.9\fonts\tfm\public\lm\rm-lmcsc10.tfm
+INPUT Images\ws_a4_xa.png
+INPUT .\Images\ws_a4_xa.png
+INPUT .\Images\ws_a4_xa.png
+INPUT .\Images\ws_a4_xa.png
+INPUT .\Images\ws_a4_xa.png
+INPUT Images\ws_a4_xy.png
+INPUT .\Images\ws_a4_xy.png
+INPUT .\Images\ws_a4_xy.png
+INPUT .\Images\ws_a4_xy.png
+INPUT .\Images\ws_a4_xy.png
+INPUT Images\ws_a4_ya.png
+INPUT .\Images\ws_a4_ya.png
+INPUT .\Images\ws_a4_ya.png
+INPUT .\Images\ws_a4_ya.png
+INPUT .\Images\ws_a4_ya.png
+INPUT Images\ws_h2_xa.png
+INPUT .\Images\ws_h2_xa.png
+INPUT .\Images\ws_h2_xa.png
+INPUT .\Images\ws_h2_xa.png
+INPUT .\Images\ws_h2_xa.png
+INPUT Images\ws_h2_xy.png
+INPUT .\Images\ws_h2_xy.png
+INPUT .\Images\ws_h2_xy.png
+INPUT .\Images\ws_h2_xy.png
+INPUT .\Images\ws_h2_xy.png
+INPUT Images\ws_h2_ya.png
+INPUT .\Images\ws_h2_ya.png
+INPUT .\Images\ws_h2_ya.png
+INPUT .\Images\ws_h2_ya.png
+INPUT .\Images\ws_h2_ya.png
+INPUT Images\ws_l2_xa.png
+INPUT .\Images\ws_l2_xa.png
+INPUT .\Images\ws_l2_xa.png
+INPUT .\Images\ws_l2_xa.png
+INPUT .\Images\ws_l2_xa.png
+INPUT Images\ws_l2_xy.png
+INPUT .\Images\ws_l2_xy.png
+INPUT .\Images\ws_l2_xy.png
+INPUT .\Images\ws_l2_xy.png
+INPUT .\Images\ws_l2_xy.png
+INPUT Images\ws_l2_ya.png
+INPUT .\Images\ws_l2_ya.png
+INPUT .\Images\ws_l2_ya.png
+INPUT .\Images\ws_l2_ya.png
+INPUT .\Images\ws_l2_ya.png
+INPUT Images\ws_l4_xa.png
+INPUT .\Images\ws_l4_xa.png
+INPUT .\Images\ws_l4_xa.png
+INPUT .\Images\ws_l4_xa.png
+INPUT .\Images\ws_l4_xa.png
+INPUT Images\ws_l4_xy.png
+INPUT .\Images\ws_l4_xy.png
+INPUT .\Images\ws_l4_xy.png
+INPUT .\Images\ws_l4_xy.png
+INPUT .\Images\ws_l4_xy.png
+INPUT Images\ws_l4_ya.png
+INPUT .\Images\ws_l4_ya.png
+INPUT .\Images\ws_l4_ya.png
+INPUT .\Images\ws_l4_ya.png
+INPUT .\Images\ws_l4_ya.png
 INPUT Relation 02.aux
 INPUT .\Relation 02.out
 INPUT .\Relation 02.out
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-rmsc.enc
+INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-mathit.enc
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-mathsy.enc
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-rm.enc
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-rmtt.enc
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-mathex.enc
-INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-mathit.enc
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX 2.9\fonts\enc\dvips\lm\lm-ts1.enc
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmbx10.pfb
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmbx10.pfb
@@ -450,6 +585,8 @@ INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lme
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmex10.pfb
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmmi10.pfb
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmmi10.pfb
+INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmmi5.pfb
+INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmmi5.pfb
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmmi7.pfb
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmmi7.pfb
 INPUT C:\Users\alber\AppData\Local\Programs\MiKTeX 2.9\fonts\type1\public\lm\lmr10.pfb
